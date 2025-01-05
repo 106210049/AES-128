@@ -58,6 +58,9 @@
         <mxCell id="J2FQPla9vpxjJtDWZWmy-16" value="Mix columns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="560" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="J2FQPla9vpxjJtDWZWmy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2FQPla9vpxjJtDWZWmy-17" target="J2FQPla9vpxjJtDWZWmy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-17" value="Add round key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="620" width="160" height="40" as="geometry" />
         </mxCell>
@@ -74,25 +77,25 @@
           <mxGeometry x="190" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="740" width="240" height="190" as="geometry" />
+          <mxGeometry x="200" y="720" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2FQPla9vpxjJtDWZWmy-29" target="J2FQPla9vpxjJtDWZWmy-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-29" value="Substitute bytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="760" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="740" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2FQPla9vpxjJtDWZWmy-31" target="J2FQPla9vpxjJtDWZWmy-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-31" value="Shift rows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="820" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="800" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-34" value="Add round key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="880" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="860" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;R10&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="740" width="60" height="30" as="geometry" />
+          <mxGeometry x="190" y="720" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
