@@ -238,7 +238,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yL0VAeQSmFmb5W73XQlK" name="Key expand">
-    <mxGraphModel dx="359" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="802" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,6 +406,12 @@
         </mxCell>
         <mxCell id="EjKisSM6hf6ydkIFWwKD-48" value="AddW[39]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-53" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="20" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-54" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;round key 10&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="440" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
