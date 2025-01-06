@@ -238,7 +238,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yL0VAeQSmFmb5W73XQlK" name="Key expand">
-    <mxGraphModel dx="298" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="359" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,6 +359,9 @@
         <mxCell id="EjKisSM6hf6ydkIFWwKD-36" value="SubWord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="160" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjKisSM6hf6ydkIFWwKD-37" target="EjKisSM6hf6ydkIFWwKD-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EjKisSM6hf6ydkIFWwKD-37" value="AddRcon[10]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="240" width="120" height="40" as="geometry" />
         </mxCell>
@@ -381,7 +384,28 @@
           <mxGeometry x="600" y="80" width="20" height="200" as="geometry" />
         </mxCell>
         <mxCell id="EjKisSM6hf6ydkIFWwKD-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;trans(w[39])&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="160" width="100" height="30" as="geometry" />
+          <mxGeometry x="630" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjKisSM6hf6ydkIFWwKD-45" target="EjKisSM6hf6ydkIFWwKD-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-45" value="AddW[36]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjKisSM6hf6ydkIFWwKD-46" target="EjKisSM6hf6ydkIFWwKD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-46" value="AddW[37]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjKisSM6hf6ydkIFWwKD-47" target="EjKisSM6hf6ydkIFWwKD-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-47" value="AddW[38]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EjKisSM6hf6ydkIFWwKD-48" value="AddW[39]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
