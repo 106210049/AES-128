@@ -211,10 +211,10 @@
           <mxGeometry x="470" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-68" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Plaintext[127:0]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="40" width="160" height="30" as="geometry" />
+          <mxGeometry x="190" y="40" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J2FQPla9vpxjJtDWZWmy-69" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Key&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="590" y="40" width="60" height="30" as="geometry" />
+        <mxCell id="J2FQPla9vpxjJtDWZWmy-69" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Key[127:0]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="40" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J2FQPla9vpxjJtDWZWmy-71" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;128 bit&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="940" width="60" height="30" as="geometry" />
