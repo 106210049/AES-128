@@ -931,7 +931,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="819" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1118,7 +1118,7 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-83" value="rkey_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="390" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-86" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="E0zOSod0C_8z8iG8Cd1U-106">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="727" y="460" as="sourcePoint" />
             <mxPoint x="840" y="460" as="targetPoint" />
@@ -1185,13 +1185,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-106" value="SubBytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="880" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-107" value="shift_rows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="1040" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-109" value="subbytes_sel[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="430" width="60" height="30" as="geometry" />
+          <mxGeometry x="790" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-110" value="after_subbytes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="435" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
