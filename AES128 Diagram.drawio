@@ -670,6 +670,9 @@
         <mxCell id="CXqJB55lRKNS_z192WpB-6" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="502.5" y="420" width="75" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="CXqJB55lRKNS_z192WpB-7" value="rkey_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="695" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
