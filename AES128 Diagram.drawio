@@ -723,7 +723,7 @@
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-17" value="AES cipher core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="360" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-18" value="AES Key Expand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-18" value="AES Key Expand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CCCC;" vertex="1" parent="1">
           <mxGeometry x="320" y="680" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -985,7 +985,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="1448" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
