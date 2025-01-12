@@ -438,75 +438,90 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y2f5cobubWdvO0zIroZL" name="AES High level block">
-    <mxGraphModel dx="558" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="797" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-1" value="AES cipher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="120" width="90" height="160" as="geometry" />
+          <mxGeometry x="270" y="80" width="90" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="140" as="sourcePoint" />
-            <mxPoint x="270" y="140" as="targetPoint" />
+            <mxPoint x="200" y="100" as="sourcePoint" />
+            <mxPoint x="270" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="169.67" as="sourcePoint" />
-            <mxPoint x="270" y="169.67" as="targetPoint" />
+            <mxPoint x="200" y="129.67" as="sourcePoint" />
+            <mxPoint x="270" y="129.67" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="260" as="sourcePoint" />
-            <mxPoint x="270" y="260" as="targetPoint" />
+            <mxPoint x="200" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="199.67" as="sourcePoint" />
-            <mxPoint x="270" y="199.67" as="targetPoint" />
+            <mxPoint x="200" y="159.67" as="sourcePoint" />
+            <mxPoint x="270" y="159.67" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-6" value="plain_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="110" width="60" height="30" as="geometry" />
+          <mxGeometry x="170" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-7" value="cipher_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="80" height="30" as="geometry" />
+          <mxGeometry x="160" y="110" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="230" as="sourcePoint" />
-            <mxPoint x="270" y="230" as="targetPoint" />
+            <mxPoint x="200" y="190" as="sourcePoint" />
+            <mxPoint x="270" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-9" value="cipher_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="180" width="60" height="30" as="geometry" />
+          <mxGeometry x="180" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-10" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="210" width="30" height="20" as="geometry" />
+          <mxGeometry x="190" y="170" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-12" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="240" width="30" height="20" as="geometry" />
+          <mxGeometry x="190" y="200" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="160" as="sourcePoint" />
-            <mxPoint x="440" y="160" as="targetPoint" />
+            <mxPoint x="360" y="120" as="sourcePoint" />
+            <mxPoint x="440" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="199.82999999999998" as="sourcePoint" />
-            <mxPoint x="440" y="199.82999999999998" as="targetPoint" />
+            <mxPoint x="360" y="159.82999999999998" as="sourcePoint" />
+            <mxPoint x="440" y="159.82999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-15" value="cipher_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="375" y="130" width="100" height="30" as="geometry" />
+          <mxGeometry x="375" y="90" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-16" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="180" width="75" height="20" as="geometry" />
+          <mxGeometry x="400" y="140" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-17" value="AES cipher core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-18" value="AES Key Expand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="200" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-20" value="plain_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
