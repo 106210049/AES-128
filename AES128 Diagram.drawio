@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y2f5cobubWdvO0zIroZL" name="AES High level block">
-    <mxGraphModel dx="1154" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,7 +720,7 @@
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-16" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="140" width="75" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-17" value="AES cipher core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8Se0HZ5-8mUm1QrcYrAl-17" value="AES cipher core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="360" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8Se0HZ5-8mUm1QrcYrAl-18" value="AES Key Expand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -931,11 +931,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="1719" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ig-Ctd_5furl8FBiZSP2-5" value="Add round key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="neSGLx2hbdhREydCBvOE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="80" width="1200" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig-Ctd_5furl8FBiZSP2-5" value="Add round key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
           <mxGeometry x="320" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -1178,13 +1181,13 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E0zOSod0C_8z8iG8Cd1U-106" target="E0zOSod0C_8z8iG8Cd1U-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-106" value="SubBytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-106" value="SubBytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="880" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E0zOSod0C_8z8iG8Cd1U-107" target="E0zOSod0C_8z8iG8Cd1U-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-107" value="shift_rows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-107" value="shift_rows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
           <mxGeometry x="880" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-109" value="subbytes_sel[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -1198,7 +1201,7 @@
             <mxPoint x="-100" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-113" value="mix_columns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-113" value="mix_columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF66B3;" vertex="1" parent="1">
           <mxGeometry x="-80" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-116" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -1306,7 +1309,7 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-143" value="cipher_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="365" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-144" value="DES controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-144" value="DES controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="160" y="650" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-145" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
