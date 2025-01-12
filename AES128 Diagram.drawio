@@ -703,14 +703,17 @@
             <mxPoint x="320" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CXqJB55lRKNS_z192WpB-14" value="round_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="650" width="60" height="30" as="geometry" />
+        <mxCell id="CXqJB55lRKNS_z192WpB-14" value="round_key_out[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="650" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CXqJB55lRKNS_z192WpB-15" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="490" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CXqJB55lRKNS_z192WpB-16" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="229.67000000000007" y="530" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CXqJB55lRKNS_z192WpB-17" value="round_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
