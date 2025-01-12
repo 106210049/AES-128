@@ -1375,6 +1375,9 @@
         <mxCell id="neSGLx2hbdhREydCBvOE-1" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1110" y="750" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="cDviNc6qw11fYH_J7hgQ-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;AES cipher core&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
