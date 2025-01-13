@@ -934,7 +934,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="2359" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1351,13 +1351,13 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-154" value="cipher_complete" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="345" y="700" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-155" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-155" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="E0zOSod0C_8z8iG8Cd1U-157">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="325" y="770" as="sourcePoint" />
             <mxPoint x="1165" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-156" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-156" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.408;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="E0zOSod0C_8z8iG8Cd1U-158">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="325" y="800" as="sourcePoint" />
             <mxPoint x="1165" y="800" as="targetPoint" />
@@ -1369,7 +1369,7 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-158" value="round_num[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1135" y="780" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B_3Ev8-0r_tJSVACTO48-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="B_3Ev8-0r_tJSVACTO48-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.578;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="neSGLx2hbdhREydCBvOE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="325" y="830" as="sourcePoint" />
             <mxPoint x="1165" y="830" as="targetPoint" />
