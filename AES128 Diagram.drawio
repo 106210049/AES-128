@@ -934,10 +934,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="2045" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wk5Tu0HpHp1Gpi2-J8UC-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="160" width="1200" height="720" as="geometry" />
+        </mxCell>
         <mxCell id="Ig-Ctd_5furl8FBiZSP2-5" value="Add round key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="1" vertex="1">
           <mxGeometry x="325" y="380" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1410,6 +1413,9 @@
         </mxCell>
         <mxCell id="wk5Tu0HpHp1Gpi2-J8UC-9" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wk5Tu0HpHp1Gpi2-J8UC-6">
           <mxGeometry y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="orJlN_bG8LsrkSVVgHve-1" value="128{1&#39;b1}" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wk5Tu0HpHp1Gpi2-J8UC-1">
+          <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wk5Tu0HpHp1Gpi2-J8UC-10" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="990" y="400" width="60" height="30" as="geometry" />
