@@ -1800,6 +1800,9 @@
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.inverter_2" vertex="1" parent="1">
           <mxGeometry x="600" y="340" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-16" value="rkey_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="335" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
