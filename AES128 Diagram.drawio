@@ -1745,6 +1745,21 @@
         <mxCell id="C45NMgMZ8tABS5rMqXce-1" value="round_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="300" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="C45NMgMZ8tABS5rMqXce-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.543;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770.1499999999999" y="349.77000000000004" as="sourcePoint" />
+            <mxPoint x="820" y="349.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C45NMgMZ8tABS5rMqXce-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.543;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770.1499999999999" y="310.08000000000004" as="sourcePoint" />
+            <mxPoint x="820" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C45NMgMZ8tABS5rMqXce-4" value="key_in&lt;div&gt;[31:0]&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="410" width="35" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
