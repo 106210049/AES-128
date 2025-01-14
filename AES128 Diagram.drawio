@@ -1458,7 +1458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vPjVRwp7Bzh-DX9s7lEE" name="AES Controller">
-    <mxGraphModel dx="700" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1642,11 +1642,11 @@
         <mxCell id="9UNLqJu3_ZQXWLuRptL6-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="120" as="sourcePoint" />
-            <mxPoint x="680" y="120" as="targetPoint" />
+            <mxPoint x="760" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9UNLqJu3_ZQXWLuRptL6-24" value="round_num[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="100" width="60" height="30" as="geometry" />
+          <mxGeometry x="680" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ODeBZ8BtW_sDhk8JmQo6-1" value="cipher_complete" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="155" width="60" height="30" as="geometry" />
