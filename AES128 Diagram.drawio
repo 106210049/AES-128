@@ -1458,7 +1458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vPjVRwp7Bzh-DX9s7lEE" name="AES Controller">
-    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1652,7 +1652,7 @@
           <mxGeometry x="620" y="155" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ODeBZ8BtW_sDhk8JmQo6-2" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="160" y="320" width="180" height="100" as="geometry" />
+          <mxGeometry x="80" y="320" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ODeBZ8BtW_sDhk8JmQo6-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ODeBZ8BtW_sDhk8JmQo6-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1706,7 +1706,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ODeBZ8BtW_sDhk8JmQo6-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="340" y="300" width="180" height="100" as="geometry" />
+          <mxGeometry x="260" y="300" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ODeBZ8BtW_sDhk8JmQo6-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ODeBZ8BtW_sDhk8JmQo6-13" target="OpyA8c2Zq3jhf-nuYVKa-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1748,7 +1748,7 @@
           <mxGeometry x="40" y="20" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="540" y="350" width="47" height="73" as="geometry" />
+          <mxGeometry x="460" y="350" width="47" height="73" as="geometry" />
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpyA8c2Zq3jhf-nuYVKa-1">
           <mxGeometry width="47" height="63" as="geometry" />
@@ -1767,30 +1767,38 @@
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="563.36" y="443" as="sourcePoint" />
-            <mxPoint x="563.36" y="423" as="targetPoint" />
+            <mxPoint x="483.36" y="443" as="sourcePoint" />
+            <mxPoint x="483.36" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OpyA8c2Zq3jhf-nuYVKa-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="360" as="sourcePoint" />
-            <mxPoint x="680" y="360" as="targetPoint" />
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="600" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-10" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="335" width="60" height="30" as="geometry" />
+          <mxGeometry x="530" y="335" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="460" as="sourcePoint" />
-            <mxPoint x="639.86" y="360" as="targetPoint" />
+            <mxPoint x="560" y="460" as="sourcePoint" />
+            <mxPoint x="559.86" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="460" as="sourcePoint" />
-            <mxPoint x="200" y="460" as="targetPoint" />
+            <mxPoint x="560" y="460" as="sourcePoint" />
+            <mxPoint x="120" y="460" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OpyA8c2Zq3jhf-nuYVKa-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="360.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.inverter_2" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
