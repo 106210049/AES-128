@@ -1746,7 +1746,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vPjVRwp7Bzh-DX9s7lEE" name="AES Controller">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2154,8 +2154,8 @@
         <mxCell id="ql48PO4k7OTEP-qmtrtR-5" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="471" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Nj4Oro0Yelm3awYKOpTe-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;AES Controller&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="190" width="150" height="30" as="geometry" />
+        <mxCell id="Nj4Oro0Yelm3awYKOpTe-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AES Controller&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i5nxWf8LbJjwID10hHQX-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="200" y="220" width="30" height="40" as="geometry" />
