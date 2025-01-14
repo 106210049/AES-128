@@ -1418,7 +1418,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRAuWvjuUsrEkUluTZZL" name="Key Expand">
-    <mxGraphModel dx="819" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1593,7 +1593,7 @@
         <mxCell id="8FJmYGzxHFT3vYD-ZS45-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8FJmYGzxHFT3vYD-ZS45-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1050" y="220" as="sourcePoint" />
-            <mxPoint x="1160" y="220" as="targetPoint" />
+            <mxPoint x="1240" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8FJmYGzxHFT3vYD-ZS45-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -1674,7 +1674,7 @@
           <mxGeometry x="790" y="110" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B6nKkkfIh6v4T5fSZQGr-1" value="round_key_out[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="220" width="60" height="30" as="geometry" />
+          <mxGeometry x="1180" y="220" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
