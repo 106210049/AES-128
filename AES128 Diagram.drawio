@@ -1648,6 +1648,9 @@
         <mxCell id="9UNLqJu3_ZQXWLuRptL6-24" value="round_num[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="100" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ODeBZ8BtW_sDhk8JmQo6-1" value="cipher_complete" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="155" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
