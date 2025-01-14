@@ -1743,7 +1743,7 @@
           <mxGeometry x="1070" y="210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C45NMgMZ8tABS5rMqXce-1" value="round_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="280" width="90" height="30" as="geometry" />
+          <mxGeometry x="900" y="300" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
