@@ -1418,7 +1418,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRAuWvjuUsrEkUluTZZL" name="Key Expand">
-    <mxGraphModel dx="398" dy="214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1547,6 +1547,18 @@
             <mxPoint x="600" y="190" as="sourcePoint" />
             <mxPoint x="650" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="8FJmYGzxHFT3vYD-ZS45-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="sourcePoint" />
+            <mxPoint x="720" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-16" value="after_addRcon[31:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="176.75" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-18" value="AddWord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="170" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
