@@ -1458,7 +1458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vPjVRwp7Bzh-DX9s7lEE" name="AES Controller">
-    <mxGraphModel dx="574" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="398" dy="214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1826,6 +1826,18 @@
             <mxPoint x="430" y="410" as="sourcePoint" />
             <mxPoint x="460" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-21" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-22" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417" y="390" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-23" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-24" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
