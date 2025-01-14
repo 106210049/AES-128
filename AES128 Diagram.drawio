@@ -1458,7 +1458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vPjVRwp7Bzh-DX9s7lEE" name="AES Controller">
-    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1841,6 +1841,24 @@
         </mxCell>
         <mxCell id="OpyA8c2Zq3jhf-nuYVKa-24" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="399.65999999999997" as="sourcePoint" />
+            <mxPoint x="80" y="399.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="439.65999999999997" as="sourcePoint" />
+            <mxPoint x="80" y="439.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-28" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyA8c2Zq3jhf-nuYVKa-29" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
