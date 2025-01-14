@@ -1739,8 +1739,8 @@
         <mxCell id="rZjYjbKloVzXgh4BuzTE-12" value="cipher_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="120" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7paPOPKWyArQF51vEgtM-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Key Expand&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="80" width="120" height="30" as="geometry" />
+        <mxCell id="7paPOPKWyArQF51vEgtM-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Key Expand&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="80" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
