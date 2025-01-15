@@ -1754,7 +1754,7 @@
             <mxPoint x="920" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C45NMgMZ8tABS5rMqXce-4" value="key_in&lt;div&gt;[31:0]&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="C45NMgMZ8tABS5rMqXce-4" value="key_in&lt;div&gt;[127:0]&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="375" y="410" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C45NMgMZ8tABS5rMqXce-5" value="key_in&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[127:96]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
