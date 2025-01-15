@@ -2281,7 +2281,7 @@
             <mxPoint x="520" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aicb3x1oWi2Ua5zkeULj-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
+        <mxCell id="Aicb3x1oWi2Ua5zkeULj-1" value="XOR" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="280" y="270" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Aicb3x1oWi2Ua5zkeULj-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Aicb3x1oWi2Ua5zkeULj-1">
