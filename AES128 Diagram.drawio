@@ -2625,7 +2625,7 @@
             <mxPoint x="370" y="359.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xv-hZTKS7CQ8o06rZsv1-15" value="mixColumns_in[127:96]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Xv-hZTKS7CQ8o06rZsv1-15" value="mixColumns_in[63:32]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="330" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xv-hZTKS7CQ8o06rZsv1-16" value="after_mixColumns[127:96]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
