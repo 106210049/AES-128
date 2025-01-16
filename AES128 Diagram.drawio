@@ -2639,6 +2639,18 @@
         <mxCell id="4vGImb7Yd1fOzPH1ehwB-1" value="shift_rows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
           <mxGeometry x="1120" y="80" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="TfPGqIAPlnjuQS3brpKi-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="285" width="20" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TfPGqIAPlnjuQS3brpKi-2" value="after_shift_rows[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="395" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfPGqIAPlnjuQS3brpKi-3" value="after_shift_rows[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfPGqIAPlnjuQS3brpKi-4" value="after_subbytes[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
