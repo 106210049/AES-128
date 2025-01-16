@@ -3099,6 +3099,12 @@
         <mxCell id="wHMANo6TMFNSiKR_7RyO-85" value="byte14_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="762.5" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wHMANo6TMFNSiKR_7RyO-86" value="byte13_mul3[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="937.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wHMANo6TMFNSiKR_7RyO-87" value="byte13_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="932.5" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
