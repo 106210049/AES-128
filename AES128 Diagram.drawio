@@ -2629,11 +2629,14 @@
             <mxPoint x="1080" y="599.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jN5HvuF1Wa1aN0ayPFxt-14" value="subbytes_sel[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jN5HvuF1Wa1aN0ayPFxt-14" value="subbytes_sel[127:96]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="950" y="260" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yj00_yw0bjPLBJBe9qtN-1" value="subbytes_sel[119:112]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="945" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yj00_yw0bjPLBJBe9qtN-3" value="subbytes_sel[119:112]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="945" y="420" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
