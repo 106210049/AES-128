@@ -2739,11 +2739,11 @@
         </mxCell>
         <mxCell id="wHMANo6TMFNSiKR_7RyO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wHMANo6TMFNSiKR_7RyO-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="650.0952380952381" as="targetPoint" />
+            <mxPoint x="600" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wHMANo6TMFNSiKR_7RyO-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
-          <mxGeometry x="440" y="630" width="30" height="40" as="geometry" />
+          <mxGeometry x="490" y="630" width="30" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wHMANo6TMFNSiKR_7RyO-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
