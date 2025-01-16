@@ -3087,6 +3087,9 @@
         <mxCell id="wHMANo6TMFNSiKR_7RyO-81" value="0x1b" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="1087.5" width="35" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wHMANo6TMFNSiKR_7RyO-82" value="byte15_mul3[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="617.5" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
