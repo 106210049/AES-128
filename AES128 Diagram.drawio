@@ -3093,6 +3093,12 @@
         <mxCell id="wHMANo6TMFNSiKR_7RyO-83" value="byte14_mul3[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="767.5" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wHMANo6TMFNSiKR_7RyO-84" value="byte15_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="612.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wHMANo6TMFNSiKR_7RyO-85" value="byte14_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="762.5" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
