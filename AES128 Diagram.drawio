@@ -2568,6 +2568,23 @@
         <mxCell id="Xv-hZTKS7CQ8o06rZsv1-1" value="after_mixColumns[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="50" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Xv-hZTKS7CQ8o06rZsv1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Xv-hZTKS7CQ8o06rZsv1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="220.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xv-hZTKS7CQ8o06rZsv1-2" value="mix_col" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF66B3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xv-hZTKS7CQ8o06rZsv1-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="219.71" as="sourcePoint" />
+            <mxPoint x="320" y="219.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xv-hZTKS7CQ8o06rZsv1-5" value="mixColumns_in[127:96]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
