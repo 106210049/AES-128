@@ -2549,7 +2549,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J4f1L5zqXw9AU5A6zdfY" name="shiftRows">
-    <mxGraphModel dx="-31" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-276" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2615,8 +2615,25 @@
             <mxPoint x="1080" y="499.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jN5HvuF1Wa1aN0ayPFxt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jN5HvuF1Wa1aN0ayPFxt-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="600.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jN5HvuF1Wa1aN0ayPFxt-11" value="&amp;lt;&amp;lt;3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1080" y="570" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jN5HvuF1Wa1aN0ayPFxt-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="600" as="sourcePoint" />
+            <mxPoint x="1080" y="599.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jN5HvuF1Wa1aN0ayPFxt-14" value="subbytes_sel[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yj00_yw0bjPLBJBe9qtN-1" value="subbytes_sel[119:112]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="945" y="360" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
