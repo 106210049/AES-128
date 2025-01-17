@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DsFeBk1cO2RwPtsRpStD" name="SubWord">
-    <mxGraphModel dx="778" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3462,9 +3462,6 @@
             <mxPoint x="1000" y="661" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qsOcrx9kI4dAR3xzvtlG-47" value="after_subbytes[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="711" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qsOcrx9kI4dAR3xzvtlG-48" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="650" y="346" width="20" height="690" as="geometry" />
         </mxCell>
@@ -3476,6 +3473,9 @@
         </mxCell>
         <mxCell id="Tp7PaWOFzjUthTbszqL--4" value="after_rotW[7:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="750" y="236" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tp7PaWOFzjUthTbszqL--5" value="after_SubW[31:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="615" y="700" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
