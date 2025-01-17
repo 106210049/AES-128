@@ -1915,7 +1915,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qwaNxGMtlNxRQt6xWopU" name="Subbytes">
-    <mxGraphModel dx="500" dy="265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2151,6 +2151,15 @@
         </mxCell>
         <mxCell id="-Fin9fZqqA37SbdGT9bL-3" value="ff" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="570" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Fin9fZqqA37SbdGT9bL-4" value="00" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="331" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Fin9fZqqA37SbdGT9bL-5" value="01" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Fin9fZqqA37SbdGT9bL-6" value="ff" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
