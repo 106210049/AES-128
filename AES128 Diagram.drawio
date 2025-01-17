@@ -3494,6 +3494,9 @@
         <mxCell id="mTX1Bs9RKSWxWQZ9yWZ1-4" value="after_rotW[31:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="100" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="mTX1Bs9RKSWxWQZ9yWZ1-5" value="after_SubW[31:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="605" y="100" width="90" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
