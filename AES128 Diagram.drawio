@@ -3879,6 +3879,11 @@
         <mxCell id="R51_dBq71IvwLtSsRl0k-1" value="after_addRcon[31:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="70" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="R51_dBq71IvwLtSsRl0k-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R51_dBq71IvwLtSsRl0k-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="80.23809523809524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="R51_dBq71IvwLtSsRl0k-2" value="AddWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
           <mxGeometry x="355" y="40" width="125" height="80" as="geometry" />
         </mxCell>
@@ -3929,6 +3934,15 @@
         </mxCell>
         <mxCell id="R51_dBq71IvwLtSsRl0k-15" value="key_in[63:32]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R51_dBq71IvwLtSsRl0k-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="R51_dBq71IvwLtSsRl0k-18" value="round_key&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[127:0]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R51_dBq71IvwLtSsRl0k-19" value="round_key&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[127:0]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
