@@ -2868,7 +2868,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRAuWvjuUsrEkUluTZZL" name="Key Expand">
-    <mxGraphModel dx="600" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3274,7 +3274,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qUb77otazOa4Lz0v7wPf-3" value="key_in&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[31:0]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="260" width="85" height="30" as="geometry" />
+          <mxGeometry x="865" y="260" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3740,7 +3740,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21vn2TN-0W7tR7uHZT3_" name="AddWord">
-    <mxGraphModel dx="600" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="500" dy="265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3857,6 +3857,15 @@
         </mxCell>
         <mxCell id="nQo3kG8UmJUc9_Z6H-um-15" value="key_in[31:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6zNuNgInUTmJ82mMF1Q-1" value="round_key&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[127:96]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6zNuNgInUTmJ82mMF1Q-2" value="round_key&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[95:64]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6zNuNgInUTmJ82mMF1Q-3" value="round_key&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[63:32]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
