@@ -3549,6 +3549,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AbTDQPqurkhOFKPmftpY-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="240" height="560" as="geometry" />
+        </mxCell>
         <mxCell id="wPadSnEwi52P5Wv2ikcX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wPadSnEwi52P5Wv2ikcX-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="426" as="targetPoint" />
@@ -3694,6 +3697,9 @@
         </mxCell>
         <mxCell id="AbTDQPqurkhOFKPmftpY-1" value="rcon_value[31:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="586.25" y="406.25" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AbTDQPqurkhOFKPmftpY-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Rcon&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
