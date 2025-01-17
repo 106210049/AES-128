@@ -3247,14 +3247,14 @@
         </mxCell>
         <mxCell id="DOSFU0gOsAdcIPRl0XBq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DOSFU0gOsAdcIPRl0XBq-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595" y="200.1379310344828" as="targetPoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DOSFU0gOsAdcIPRl0XBq-3" value="{[23:0],[31,24]}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DOSFU0gOsAdcIPRl0XBq-5" value="after_rotW[31:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="495" y="180" width="90" height="20" as="geometry" />
+          <mxGeometry x="490" y="175" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DOSFU0gOsAdcIPRl0XBq-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="DOSFU0gOsAdcIPRl0XBq-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
