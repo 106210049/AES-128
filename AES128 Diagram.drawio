@@ -2868,7 +2868,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRAuWvjuUsrEkUluTZZL" name="Key Expand">
-    <mxGraphModel dx="1500" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2941,13 +2941,13 @@
         <mxCell id="8FJmYGzxHFT3vYD-ZS45-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8FJmYGzxHFT3vYD-ZS45-2" target="8FJmYGzxHFT3vYD-ZS45-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8FJmYGzxHFT3vYD-ZS45-2" value="RotWord" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-2" value="RotWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="520" y="380" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8FJmYGzxHFT3vYD-ZS45-3" value="SubWord" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-3" value="SubWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="640" y="380" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8FJmYGzxHFT3vYD-ZS45-5" value="Rcon" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-5" value="Rcon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="640" y="260" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FJmYGzxHFT3vYD-ZS45-6" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -3010,7 +3010,7 @@
         <mxCell id="8FJmYGzxHFT3vYD-ZS45-16" value="after_addRcon[31:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="306.75" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8FJmYGzxHFT3vYD-ZS45-18" value="AddWord" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8FJmYGzxHFT3vYD-ZS45-18" value="AddWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="920" y="300" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8FJmYGzxHFT3vYD-ZS45-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="8FJmYGzxHFT3vYD-ZS45-36" edge="1">
