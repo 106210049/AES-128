@@ -2161,6 +2161,15 @@
         <mxCell id="-Fin9fZqqA37SbdGT9bL-6" value="ff" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="570" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="-Fin9fZqqA37SbdGT9bL-7" value="00" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Fin9fZqqA37SbdGT9bL-8" value="01" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Fin9fZqqA37SbdGT9bL-9" value="ff" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="570" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
