@@ -3235,7 +3235,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I9kqLVeoRjt5eyZPzKdC-1" value="key_in&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[31:0]&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="30" width="95" height="30" as="geometry" />
+          <mxGeometry x="250" y="50" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
