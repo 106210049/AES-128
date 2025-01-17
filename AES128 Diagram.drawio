@@ -3677,6 +3677,12 @@
         <mxCell id="58UwdGquVwBqCoPXqUO_-5" value="04" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="386.25" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="58UwdGquVwBqCoPXqUO_-6" value="05" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="426.25" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="58UwdGquVwBqCoPXqUO_-7" value="06" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="470" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
