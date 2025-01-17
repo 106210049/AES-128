@@ -3718,6 +3718,9 @@
         <mxCell id="AbTDQPqurkhOFKPmftpY-7" value="round_num[3:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="240" y="90" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="AbTDQPqurkhOFKPmftpY-9" value="rcon_value[31:0]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="100" width="90" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
