@@ -4222,7 +4222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dvJDZiBgJYWsy-IiTnX3" name="AES Decipher high level block">
-    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4252,9 +4252,6 @@
             <mxPoint x="160" y="840" as="sourcePoint" />
             <mxPoint x="240" y="840" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DtwPNyiVGucVYCtqZz98-8" value="cipher_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="820" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DtwPNyiVGucVYCtqZz98-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -4435,6 +4432,9 @@
         </mxCell>
         <mxCell id="DtwPNyiVGucVYCtqZz98-47" value="plain_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="370" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DtwPNyiVGucVYCtqZz98-48" value="round_key_10[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="820" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
