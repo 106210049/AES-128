@@ -651,7 +651,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="shQuIsa-uxxgtMwDUgnT-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="shQuIsa-uxxgtMwDUgnT-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
           <mxGeometry x="200" y="200" width="360" height="400" as="geometry" />
         </mxCell>
         <mxCell id="WMzCJOEueYzWrDLUOkBt-1" value="AES Cipher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="1" vertex="1">
@@ -803,6 +803,9 @@
         </mxCell>
         <mxCell id="eV27PBaa6bGejfaZdWJy-3" value="decipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="582.5" y="500" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eV27PBaa6bGejfaZdWJy-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AES CORE&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
