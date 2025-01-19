@@ -657,7 +657,7 @@
         <mxCell id="WMzCJOEueYzWrDLUOkBt-1" value="AES Cipher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="1" vertex="1">
           <mxGeometry x="320" y="240" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WMzCJOEueYzWrDLUOkBt-2" value="AES decipher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WMzCJOEueYzWrDLUOkBt-2" value="AES decipher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="320" y="440" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WMzCJOEueYzWrDLUOkBt-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
