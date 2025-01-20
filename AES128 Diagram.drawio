@@ -4506,7 +4506,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="60TA2GZMktAfKFQr_S15" name="AES Decipher core">
-    <mxGraphModel dx="1567" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1874" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4755,8 +4755,8 @@
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-74" value="inv_mixColumns_in[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="125" y="650" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AyFSR9XsEhtfKgmcnE7f-75" value="after_mixColumns[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-362.5" y="560" width="160" height="30" as="geometry" />
+        <mxCell id="AyFSR9XsEhtfKgmcnE7f-75" value="after_inv_mixColumns[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="130" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -5015,6 +5015,9 @@
             <mxPoint x="840" y="560" as="sourcePoint" />
             <mxPoint x="840" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M7BJzrt1dbJjzXu8vPa_-33" value="after_inv_mixColumns[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="590" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
