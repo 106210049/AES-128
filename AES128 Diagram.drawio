@@ -5029,7 +5029,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wp1hbLLLyJscGIkynJTR" name="AES Decipher Controller">
-    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5437,8 +5437,8 @@
         <mxCell id="Cq7irZlOpks0Kvmae0LK-97" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="471" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Cq7irZlOpks0Kvmae0LK-98" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AES Cipher Controller&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="160" width="250" height="30" as="geometry" />
+        <mxCell id="Cq7irZlOpks0Kvmae0LK-98" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AES decipher Controller&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-99" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="160" y="220" width="30" height="40" as="geometry" />
