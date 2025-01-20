@@ -5029,7 +5029,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wp1hbLLLyJscGIkynJTR" name="AES Decipher Controller">
-    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5207,17 +5207,17 @@
         <mxCell id="Cq7irZlOpks0Kvmae0LK-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="280" as="sourcePoint" />
-            <mxPoint x="520" y="240" as="targetPoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="240" as="sourcePoint" />
-            <mxPoint x="800" y="240" as="targetPoint" />
+            <mxPoint x="520" y="200" as="sourcePoint" />
+            <mxPoint x="800" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-44" value="round_num[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="210" width="60" height="30" as="geometry" />
+          <mxGeometry x="760" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-45" value="decipher_complete" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="275" width="60" height="30" as="geometry" />
@@ -5439,6 +5439,15 @@
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-99" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="200" y="220" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cq7irZlOpks0Kvmae0LK-100" value="=1 ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="223.25" width="40" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cq7irZlOpks0Kvmae0LK-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cq7irZlOpks0Kvmae0LK-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="570" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
