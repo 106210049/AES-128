@@ -4506,7 +4506,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="60TA2GZMktAfKFQr_S15" name="AES Decipher core">
-    <mxGraphModel dx="2097" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4770,7 +4770,7 @@
             <mxPoint x="165" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyFSR9XsEhtfKgmcnE7f-80" value="plain_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AyFSR9XsEhtfKgmcnE7f-80" value="cipher_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-235" y="430" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-82" value="round_key_10[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -4858,7 +4858,7 @@
           <mxGeometry x="1130" y="810" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-102" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AES decipher core&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="875" y="170" width="210" height="30" as="geometry" />
+          <mxGeometry x="875" y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-103" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1085" y="420" width="160" height="100" as="geometry" />
