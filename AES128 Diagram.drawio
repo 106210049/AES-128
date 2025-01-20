@@ -5219,8 +5219,8 @@
         <mxCell id="Cq7irZlOpks0Kvmae0LK-44" value="round_num[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Cq7irZlOpks0Kvmae0LK-45" value="cipher_complete" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="275" width="60" height="30" as="geometry" />
+        <mxCell id="Cq7irZlOpks0Kvmae0LK-45" value="decipher_complete" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-46" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="120" y="440" width="180" height="100" as="geometry" />
