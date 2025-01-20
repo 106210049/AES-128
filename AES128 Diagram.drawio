@@ -5438,7 +5438,7 @@
           <mxGeometry x="550" y="471" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-98" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AES Cipher Controller&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="70" width="250" height="30" as="geometry" />
+          <mxGeometry x="470" y="160" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cq7irZlOpks0Kvmae0LK-99" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="160" y="220" width="30" height="40" as="geometry" />
