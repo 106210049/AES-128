@@ -3222,7 +3222,7 @@
         <mxCell id="JeldDQm1IBwGEePkz44i-18" value="SubWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="640" y="380" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JeldDQm1IBwGEePkz44i-19" value="InvRcon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+        <mxCell id="JeldDQm1IBwGEePkz44i-19" value="Rcon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="640" y="260" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
