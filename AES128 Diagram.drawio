@@ -3464,8 +3464,8 @@
         <mxCell id="JeldDQm1IBwGEePkz44i-72" value="cipher_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="250" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JeldDQm1IBwGEePkz44i-73" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Key Expand&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="210" width="160" height="30" as="geometry" />
+        <mxCell id="JeldDQm1IBwGEePkz44i-73" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AES Key Expand&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="210" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-74" value="round_key&lt;div&gt;[127:0]&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="300" width="90" height="30" as="geometry" />
@@ -5498,7 +5498,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dCL1PbVhBFyurRe5ZItD" name="AES Inv_Key_Expand">
-    <mxGraphModel dx="1000" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
