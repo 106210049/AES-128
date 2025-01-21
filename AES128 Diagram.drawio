@@ -5513,7 +5513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dCL1PbVhBFyurRe5ZItD" name="AES Inv_Key_Expand">
-    <mxGraphModel dx="195" dy="104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="580" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5578,7 +5578,7 @@
           <mxGeometry x="130" y="460" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XrFmDsQ-KQcvhP0K4MBQ-17" value="RotWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="700" y="770" width="80" height="60" as="geometry" />
+          <mxGeometry x="600" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XrFmDsQ-KQcvhP0K4MBQ-18" value="SubWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="530" y="750" width="80" height="60" as="geometry" />
@@ -5870,6 +5870,9 @@
         </mxCell>
         <mxCell id="pOUugmeIjawNcyafrX7d-1" value="round_key_10[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kx3YXLfYF6Wl1TFTiCc2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kx3YXLfYF6Wl1TFTiCc2-2" target="XrFmDsQ-KQcvhP0K4MBQ-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Kx3YXLfYF6Wl1TFTiCc2-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="540" y="600" width="50" height="40" as="geometry" />
