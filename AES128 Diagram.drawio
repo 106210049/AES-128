@@ -5577,11 +5577,14 @@
         <mxCell id="XrFmDsQ-KQcvhP0K4MBQ-15" value="round_num[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="460" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Kx3YXLfYF6Wl1TFTiCc2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XrFmDsQ-KQcvhP0K4MBQ-17" target="XrFmDsQ-KQcvhP0K4MBQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XrFmDsQ-KQcvhP0K4MBQ-17" value="RotWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="600" y="600" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XrFmDsQ-KQcvhP0K4MBQ-18" value="SubWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="530" y="750" width="80" height="60" as="geometry" />
+          <mxGeometry x="760" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XrFmDsQ-KQcvhP0K4MBQ-19" value="InvRcon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="760" y="430.85" width="80" height="60" as="geometry" />
