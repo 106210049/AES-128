@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiJNM2lctQ0j9i18_cf" name="AES CORE">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -670,12 +670,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="520" as="sourcePoint" />
             <mxPoint x="320" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WMzCJOEueYzWrDLUOkBt-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="540" as="sourcePoint" />
-            <mxPoint x="320" y="539.86" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -726,12 +720,6 @@
             <mxPoint x="320" y="759.76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="shQuIsa-uxxgtMwDUgnT-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="780" as="sourcePoint" />
-            <mxPoint x="320" y="779.76" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="700" as="sourcePoint" />
@@ -774,9 +762,6 @@
         <mxCell id="l7i4bFVT1gXq1DQvJ4Ss-1" value="cipher_key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l7i4bFVT1gXq1DQvJ4Ss-2" value="cipher_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="520" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="4nreB6EO6VSrMsJO8GK8-1" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="700" width="50" height="20" as="geometry" />
         </mxCell>
@@ -785,9 +770,6 @@
         </mxCell>
         <mxCell id="4nreB6EO6VSrMsJO8GK8-3" value="cipher_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="115" y="710" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4nreB6EO6VSrMsJO8GK8-4" value="decipher_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="765" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pt-Gie5dmQ1CUKRZo0e0-2" value="round_key_10[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="735" width="60" height="30" as="geometry" />
@@ -921,7 +903,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y2f5cobubWdvO0zIroZL" name="AES Cipher High level block">
-    <mxGraphModel dx="683" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
