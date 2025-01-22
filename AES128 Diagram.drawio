@@ -4974,9 +4974,6 @@
         <mxCell id="fAFb6tBtv7TH9-A0flc2-1" value="inv_subbytes_in[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1100" y="630" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ePL5qPFRG_333OOg8hXd-1" value="first_time_en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="420" width="60" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
