@@ -1205,7 +1205,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="1839" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1328" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1224,14 +1224,8 @@
             <mxPoint x="435" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="265" y="180" as="sourcePoint" />
-            <mxPoint x="200" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-18" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="165" y="180" width="120" height="120" as="geometry" />
+          <mxGeometry x="170" y="180" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="E0zOSod0C_8z8iG8Cd1U-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1247,7 +1241,7 @@
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="E0zOSod0C_8z8iG8Cd1U-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="99.57999999999998" as="sourcePoint" />
+            <mxPoint x="100" y="20" as="sourcePoint" />
             <mxPoint x="99.57999999999998" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1262,6 +1256,15 @@
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-16" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="E0zOSod0C_8z8iG8Cd1U-17" vertex="1">
           <mxGeometry y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-8" value="" style="endArrow=none;html=1;rounded=0;" parent="E0zOSod0C_8z8iG8Cd1U-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="20" as="sourcePoint" />
+            <mxPoint x="35" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrdxpGBHZ_33jNRz_yAI-1" value="first_round" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="E0zOSod0C_8z8iG8Cd1U-18" vertex="1">
+          <mxGeometry x="-10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-51" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="125" y="340" width="160" height="100" as="geometry" />
@@ -1684,9 +1687,6 @@
         </mxCell>
         <mxCell id="kb0vW6hpGLrRDwQoq3QB-1" value="after_shift_rows[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="745" y="650" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nrdxpGBHZ_33jNRz_yAI-1" value="first_round" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="165" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wcL5nYOeEHd92LHgl5f1-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
