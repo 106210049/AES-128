@@ -2087,6 +2087,9 @@
         <mxCell id="5PgYSKc8scm-0MCc-TyP-8" value="first_round" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="220" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="7wwrMqMDtQLMLrNbG5OL-2" value="counter[3:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
