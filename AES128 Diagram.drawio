@@ -5117,7 +5117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="34wS7tLm3-OzNUe2TX9Y" name="Inv_SubBytes">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5141,7 +5141,7 @@
             <mxPoint x="260" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sfx_njDzC805pWjbwxH0-5" value="subbytes_sel[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Sfx_njDzC805pWjbwxH0-5" value="inv_subbytes_in[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="231" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Sfx_njDzC805pWjbwxH0-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -5200,7 +5200,7 @@
             <mxPoint x="540" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sfx_njDzC805pWjbwxH0-19" value="subbytes_sel[119:112]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Sfx_njDzC805pWjbwxH0-19" value="inv_subbytes_in[119:112]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="231" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Sfx_njDzC805pWjbwxH0-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -5259,7 +5259,7 @@
             <mxPoint x="940" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sfx_njDzC805pWjbwxH0-33" value="subbytes_sel[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Sfx_njDzC805pWjbwxH0-33" value="inv_subbytes_in[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="230" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Sfx_njDzC805pWjbwxH0-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
