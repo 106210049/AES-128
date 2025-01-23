@@ -1023,6 +1023,12 @@
         <mxCell id="uFm5jTkrxDpYk0wXdq2B-51" value="0" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="450" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="uFm5jTkrxDpYk0wXdq2B-52" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uFm5jTkrxDpYk0wXdq2B-53" value="0" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="750" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
