@@ -4360,10 +4360,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dvJDZiBgJYWsy-IiTnX3" name="AES Decipher high level block">
-    <mxGraphModel dx="819" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fZIYG3w_q25w2KphGW6S-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#80FF00,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="530" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="DtwPNyiVGucVYCtqZz98-2" value="AES decipher core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="360" width="120" height="200" as="geometry" />
         </mxCell>
