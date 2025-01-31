@@ -6181,7 +6181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dbUZqa1YPz2uPk8Fk52P" name="Inv_Mix_Columns">
-    <mxGraphModel dx="985" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6656,7 +6656,7 @@
             <mxPoint y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z84VaonU-wmADgsKqYmI-6" value="byte13_mul3[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Z84VaonU-wmADgsKqYmI-6" value="byte15_mul8[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="700" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z84VaonU-wmADgsKqYmI-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -6671,14 +6671,14 @@
             <mxPoint y="739.59" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z84VaonU-wmADgsKqYmI-10" value="byte14_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Z84VaonU-wmADgsKqYmI-10" value="byte15_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="725" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z84VaonU-wmADgsKqYmI-12" value="mixColumns_in[103:96]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="760" width="140" height="20" as="geometry" />
+        <mxCell id="Z84VaonU-wmADgsKqYmI-12" value="byte15_mul4[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="755" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Z84VaonU-wmADgsKqYmI-13" value="after_mixColumns[23:16]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="710" width="160" height="30" as="geometry" />
+        <mxCell id="Z84VaonU-wmADgsKqYmI-13" value="byte15_mule0[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="710" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
