@@ -6181,7 +6181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dbUZqa1YPz2uPk8Fk52P" name="Inv_Mix_Columns">
-    <mxGraphModel dx="1424" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6679,6 +6679,50 @@
         </mxCell>
         <mxCell id="Z84VaonU-wmADgsKqYmI-13" value="byte15_mule0[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="710" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Z84VaonU-wmADgsKqYmI-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-15" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
+          <mxGeometry y="800" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="860" as="sourcePoint" />
+            <mxPoint y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="820" as="sourcePoint" />
+            <mxPoint y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-18" value="byte15_mul8[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="839.59" as="sourcePoint" />
+            <mxPoint x="20" y="839.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="839.59" as="sourcePoint" />
+            <mxPoint y="839.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-21" value="byte15_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="825" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-22" value="mul_in[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="855" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z84VaonU-wmADgsKqYmI-23" value="byte15_mule0[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="810" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
