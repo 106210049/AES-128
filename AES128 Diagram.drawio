@@ -5984,9 +5984,6 @@
         <mxCell id="SLcncWRzI2L_g5-EUu0j-9" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SLcncWRzI2L_g5-EUu0j-6">
           <mxGeometry y="10" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SLcncWRzI2L_g5-EUu0j-12" value="mix_Columns_in[127]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="560" width="115" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="SLcncWRzI2L_g5-EUu0j-13" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=xor;" vertex="1" parent="1">
           <mxGeometry x="255" y="600" width="30" height="40" as="geometry" />
         </mxCell>
@@ -6015,9 +6012,6 @@
             <mxPoint x="230" y="660" as="sourcePoint" />
             <mxPoint x="230" y="630" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="SLcncWRzI2L_g5-EUu0j-19" value="mixColumns_in[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="600" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SLcncWRzI2L_g5-EUu0j-24" value="0x1b" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="587.5" width="35" height="30" as="geometry" />
@@ -6090,7 +6084,13 @@
           <mxGeometry x="450" y="390" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR0O-UZ81uzeJRhwfXAh-1" value="inv_mixColumns_in[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="310" width="160" height="30" as="geometry" />
+          <mxGeometry x="-90" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YR0O-UZ81uzeJRhwfXAh-2" value="inv_mixColumns_in[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="605" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YR0O-UZ81uzeJRhwfXAh-3" value="inv_mixColumns_in[127]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="557.5" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
