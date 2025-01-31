@@ -6794,6 +6794,9 @@
         <mxCell id="gb3FF1pdMZYrZzRV86lD-29" value="inv_mixColumns_in[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="1080" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="gb3FF1pdMZYrZzRV86lD-30" value="byte15_mul09[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1060" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
