@@ -6375,13 +6375,13 @@
             <mxPoint x="790" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PgIqLiG9EVFoSBm5st9f-92" value="byte15_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PgIqLiG9EVFoSBm5st9f-92" value="byte12_mul2[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="510" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PgIqLiG9EVFoSBm5st9f-93" value="byte15_mul4[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PgIqLiG9EVFoSBm5st9f-93" value="byte12_mul4[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="550" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PgIqLiG9EVFoSBm5st9f-94" value="byte15_mul8[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PgIqLiG9EVFoSBm5st9f-94" value="byte12_mul8[7:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="590" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PgIqLiG9EVFoSBm5st9f-95" value="inv_mixColumns_in[127:120]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
