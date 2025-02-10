@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiJNM2lctQ0j9i18_cf" name="AES CORE">
-    <mxGraphModel dx="478" dy="240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -665,13 +665,13 @@
         </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="560" as="sourcePoint" />
+            <mxPoint x="40" y="560" as="sourcePoint" />
             <mxPoint x="340" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="580" as="sourcePoint" />
+            <mxPoint x="40" y="580" as="sourcePoint" />
             <mxPoint x="340" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -736,7 +736,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-17" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="545" width="50" height="20" as="geometry" />
+          <mxGeometry x="10" y="540" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-19" value="plain_text[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="460" width="60" height="30" as="geometry" />
@@ -835,7 +835,7 @@
           <mxGeometry x="340" y="480" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b9eGKg3RodQNm1fALWba-2" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="580" width="50" height="20" as="geometry" />
+          <mxGeometry x="10" y="580" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eV27PBaa6bGejfaZdWJy-1" value="cipher_ready" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="540" width="75" height="20" as="geometry" />
@@ -874,6 +874,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="760" as="sourcePoint" />
             <mxPoint x="640" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b9eGKg3RodQNm1fALWba-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="70" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="b9eGKg3RodQNm1fALWba-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="500" as="sourcePoint" />
+            <mxPoint x="130" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b9eGKg3RodQNm1fALWba-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="130" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
