@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiJNM2lctQ0j9i18_cf" name="AES CORE">
-    <mxGraphModel dx="683" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -923,6 +923,12 @@
         </mxCell>
         <mxCell id="b9eGKg3RodQNm1fALWba-18" value="DECIPHER" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="135" y="700" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b9eGKg3RodQNm1fALWba-19" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b9eGKg3RodQNm1fALWba-20" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
