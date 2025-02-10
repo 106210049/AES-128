@@ -973,7 +973,7 @@
           <mxGeometry x="130" y="580" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b9eGKg3RodQNm1fALWba-34" value="data_in[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="475" width="60" height="30" as="geometry" />
+          <mxGeometry x="20" y="475" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b9eGKg3RodQNm1fALWba-35" value="key[127:0]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="500" width="60" height="30" as="geometry" />
