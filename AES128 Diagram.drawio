@@ -3872,7 +3872,7 @@
           <mxGeometry x="480" y="460.29" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="COAqaNnufjDAjgRaIRH_-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1360" y="310" width="160" height="100" as="geometry" />
+          <mxGeometry x="1280" y="310" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="COAqaNnufjDAjgRaIRH_-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="COAqaNnufjDAjgRaIRH_-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3880,15 +3880,9 @@
             <mxPoint x="160" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="COAqaNnufjDAjgRaIRH_-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="COAqaNnufjDAjgRaIRH_-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="40" as="sourcePoint" />
-            <mxPoint x="80" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="COAqaNnufjDAjgRaIRH_-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="COAqaNnufjDAjgRaIRH_-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="79.43" as="sourcePoint" />
+            <mxPoint x="40" y="80" as="sourcePoint" />
             <mxPoint x="80" y="79.43" as="targetPoint" />
           </mxGeometry>
         </mxCell>
