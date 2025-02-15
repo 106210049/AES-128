@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiJNM2lctQ0j9i18_cf" name="AES CORE">
-    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -924,7 +924,7 @@
             <mxPoint x="170" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KNdMbTv1MxfCle2fpqmf-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="KNdMbTv1MxfCle2fpqmf-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="KNdMbTv1MxfCle2fpqmf-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="760" as="sourcePoint" />
             <mxPoint x="100" y="520" as="targetPoint" />
@@ -938,6 +938,12 @@
         </mxCell>
         <mxCell id="KNdMbTv1MxfCle2fpqmf-12" value="`define parameter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="440" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KNdMbTv1MxfCle2fpqmf-19" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KNdMbTv1MxfCle2fpqmf-20" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="510" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
