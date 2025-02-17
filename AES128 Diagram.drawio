@@ -647,10 +647,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiJNM2lctQ0j9i18_cf" name="AES CORE">
-    <mxGraphModel dx="292" dy="155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6hCKRxK8QyLQOSvz60N5-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFCCE6,#000000);" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="680" height="410" as="geometry" />
+        </mxCell>
         <mxCell id="KNdMbTv1MxfCle2fpqmf-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#DBE8FF,var(--ge-dark-color, #121212));" parent="1" vertex="1">
           <mxGeometry x="90" y="440" width="210" height="360" as="geometry" />
         </mxCell>
