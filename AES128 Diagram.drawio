@@ -4833,7 +4833,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="60TA2GZMktAfKFQr_S15" name="AES Decipher core">
-    <mxGraphModel dx="1669" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5028,8 +5028,8 @@
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-47" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="708.39" y="610" as="sourcePoint" />
-            <mxPoint x="708.39" y="590" as="targetPoint" />
+            <mxPoint x="753.36" y="465.14" as="sourcePoint" />
+            <mxPoint x="753.36" y="445.14" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-49" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -5378,6 +5378,18 @@
             <mxPoint x="777" y="379" as="sourcePoint" />
             <mxPoint x="840" y="380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Xr562QWGBL4vonUXDPRi-12" value="clk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="688.5" y="425.14" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xr562QWGBL4vonUXDPRi-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688.5" y="425.14" as="sourcePoint" />
+            <mxPoint x="728.5" y="425.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xr562QWGBL4vonUXDPRi-14" value="rst_n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="757" y="450" width="33" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
