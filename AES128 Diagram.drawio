@@ -2500,6 +2500,9 @@
         <mxCell id="MA5q64uosXPF6Aoto8lO-3" value="??" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="580" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="MA5q64uosXPF6Aoto8lO-4" value="0x00" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="565" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
