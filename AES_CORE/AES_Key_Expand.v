@@ -46,6 +46,6 @@ module AES_Key_Expand(
       round_key_reg<=round_key_reg;
     end
   end
-  assign round_key_out=round_key_reg;
+  assign round_key_out= (begin_round)? 128'h0 : round_key_reg;
   
 endmodule

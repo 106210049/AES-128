@@ -1,7 +1,7 @@
 // Code your testbench here
 // or browse Examples
 `timescale 1ns / 1ps
-`define CIPHER
+`include "AES_Config_Parameter.v"
 module AES_CORE_TB;
 
     // Testbench signals
@@ -31,8 +31,11 @@ module AES_CORE_TB;
         clk = 0;
         rst_n = 0;
         `ifdef CIPHER
-        data_in = 128'h00112233445566778899AABBCCDDEEFF; // Sample input
-        key = 128'h000102030405060708090A0B0C0D0E0F;  // Sample key
+          data_in = 128'h00112233445566778899AABBCCDDEEFF; // Sample input
+          key = 128'h000102030405060708090A0B0C0D0E0F;  // Sample key
+        `else
+          data_in = 128'h3925841d02dc09fbdc118597196a0b32;
+          key = 128'hd014f9a8c9ee2589e13f0cc8b6630ca6;
         `endif 
         // Reset sequence
         #10 rst_n = 1;
@@ -42,21 +45,17 @@ module AES_CORE_TB;
         wait (finished);
         $display("AES Operation Completed. Output: %h", data_out);
 
-        #20;
+        #5;
+        data_in = 128'h3243f6a8885a308d313198a2e0370734; // Sample input
+        key = 128'h2b7e151628aed2a6abf7158809cf4f3c;  // Sample key
         
-        `ifdef DECIPHER
-            // Save encrypted data for decryption test
-            data_in = data_out;
-            key = 128'h0F0E0D0C0B0A09080706050403020100; // Example decryption key
-        `endif
-        
-        #10 rst_n = 0;
-        #10 rst_n = 1;
-
-        // Wait for decryption operation
+        #20
         wait (finished);
         $display("AES Decryption Completed. Output: %h", data_out);
-
+        
+        #20
+        wait (finished);
+        $display("AES Decryption Completed. Output: %h", data_out);
         // End simulation
         #20;
         $stop;

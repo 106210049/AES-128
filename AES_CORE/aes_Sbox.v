@@ -275,7 +275,6 @@ module aes_Sbox(
           8'hfd:	aes128_sbox[7:0] = 8'h54;
           8'hfe:	aes128_sbox[7:0] = 8'hbb;
           8'hff:	aes128_sbox[7:0] = 8'h16;
-          default: aes128_sbox[7:0] = 8'hXX;
       endcase
    end
 endmodule

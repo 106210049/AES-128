@@ -9,7 +9,6 @@ module AES_Decipher(
   
   output wire decipher_ready,
   output wire [127:0] plain_text
-  
 );
   wire [3:0] round_num;
   wire rkey_en,begin_round;

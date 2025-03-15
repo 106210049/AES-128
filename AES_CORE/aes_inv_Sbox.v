@@ -275,7 +275,6 @@ module aes_inv_Sbox(
 		8'hfd:	aes128_inv_sbox[7:0] = 8'h21;
 		8'hfe:	aes128_inv_sbox[7:0] = 8'h0c;
 		8'hff:	aes128_inv_sbox[7:0] = 8'h7d;
-		default: aes128_inv_sbox[7:0] = 8'hXX;
 	endcase
   end
 endmodule
