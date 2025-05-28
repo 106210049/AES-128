@@ -1,0 +1,199 @@
+                          CONFORMAL (R)
+                   Version 23.10-p100 (26-Apr-2023) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2023. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 740 days old. You can download the latest version from http://downloads.cadence.com.
+
+// Command: dofile wlec_g1tog2_dofile
+// Command: tclmode
+CPU time     : 0.50    seconds
+Elapse time  : 14      seconds
+Memory usage : 65.66   M bytes
+// Command: set_screen_display -noprogress
+0
+// Command: set_dofile_abort exit
+0
+// Command: set lec_version [regsub {(-)[A-Za-z]} $env(LEC_VERSION) ""]
+23.10100
+// Command: set wlec_analyze_dp_flowgraph true
+true
+// Command: set share_dp_analysis         true
+true
+// Command: set lec_version_required "19.10100"
+19.10100
+// Command: if {$lec_version >= $lec_version_required &&
+//              $wlec_analyze_dp_flowgraph} {
+//              set DATAPATH_SOLVER_OPTION "-flowgraph"
+//          } elseif {$share_dp_analysis} {
+//              set DATAPATH_SOLVER_OPTION "-share"
+//          } else {
+//              set DATAPATH_SOLVER_OPTION ""
+//          }
+-flowgraph
+// Command: tcl_set_command_name_echo on
+// Command: usage -auto -elapse
+// Command: usage -auto -elapse
+CPU time     : 0.51    seconds
+Elapse time  : 14      seconds
+Memory usage : 65.76   M bytes
+0
+// Command: set_mapping_method -sensitive
+// Command: set_mapping_method -sensitive
+0
+// Command: set_verification_information write_lec_generate_label.1_countermapv_db
+// Command: set_verification_information write_lec_generate_label.1_countermapv_db
+// Note: Verification information write_lec_generate_label.1_countermapv_db does not exist. New directory created.
+// Verification information is set to /home/DN03/COUNTER/LEC/write_lec_generate_label.1_countermapv_db.
+0
+// Command: set_parallel_option -threads 1,4 -norelease_license
+// Command: set_parallel_option -threads 1,4 -norelease_license
+// Number of threads is set to 1,4.
+0
+// Command: set_compare_options -threads 1,4
+// Command: set_compare_options -threads 1,4
+Set computing threads of compare to 1,4.
+0
+// Command: set env(RC_VERSION)     "22.12-s082_1"
+22.12-s082_1
+// Command: set env(CDN_SYNTH_ROOT) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86
+// Command: set CDN_SYNTH_ROOT      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86
+// Command: set env(CW_DIR) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware
+// Command: set CW_DIR      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware
+// Command: set lec_version_required "21.20249"
+21.20249
+// Command: if { ($lec_version < $lec_version_required) &&
+//              [file exists /mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/old_encrypt_sim]} {
+//              set env(CW_DIR_SIM) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/old_encrypt_sim"
+//              set CW_DIR_SIM      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/old_encrypt_sim"
+//          } else {
+//              set env(CW_DIR_SIM) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/sim"
+//              set CW_DIR_SIM      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/sim"
+//          }
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/sim
+// Command: set_multiplier_implementation boothrca -both
+// Command: set_multiplier_implementation boothrca -both
+0
+// Command: set_undefined_cell black_box -noascend -both
+// Command: set_undefined_cell black_box -noascend -both
+0
+// Command: add_search_path /home/DN03/LIBS/lib/max -library -both
+// Command: add_search_path /home/DN03/LIBS/lib/max -library -both
+// Warning: Directory '/home/DN03/LIBS/lib/max' doesn't exist and is ignored
+0
+// Command: read_library -liberty -both \
+//              /home/DN03/AES128/LIBS/lib/max/leon.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM1_1024X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM1_256X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM1_4096X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_1024X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_128X16_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_128X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_136X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_2048X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_4096X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_512X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/pllclk_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/pdkIO.lib \
+//              /home/DN03/AES128/LIBS/lib/max/fast_vdd1v2_basicCells.lib
+// Command: read_library -liberty -both /home/DN03/AES128/LIBS/lib/max/leon.lib /home/DN03/AES128/LIBS/lib/max/MEM1_1024X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM1_256X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM1_4096X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_1024X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_128X16_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_128X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_136X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_2048X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_4096X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_512X32_slow.lib /home/DN03/AES128/LIBS/lib/max/pllclk_slow.lib /home/DN03/AES128/LIBS/lib/max/pdkIO.lib /home/DN03/AES128/LIBS/lib/max/fast_vdd1v2_basicCells.lib
+// Parsing file /home/DN03/AES128/LIBS/lib/max/leon.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM1_1024X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM1_256X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM1_4096X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_1024X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_128X16_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_128X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_136X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_2048X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_4096X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_512X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/pllclk_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/pdkIO.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/fast_vdd1v2_basicCells.lib ...
+// Warning: (RTL9.17) Cell doesn't have any output pins or all output pins are undriven (blackboxed) (occurrence:21)
+// Note: (RTL9.26) Liberty pin with internal_node use default input_map (occurrence:16)
+// Warning: (RTL14) Signal has input but it has no output (occurrence:2)
+// Note: Read Liberty library successfully
+0
+CPU time     : 0.75    seconds
+Elapse time  : 15      seconds
+Memory usage : 88.18   M bytes
+// Command: read_design -verilog95   -golden -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter_netlist.v
+// Command: read_design -verilog95 -golden -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter_netlist.v
+// Parsing file /home/DN03/COUNTER/OUTPUT/counter_netlist.v ...
+0
+// Command: elaborate_design -golden -root {counter}
+// Command: elaborate_design -golden -root counter
+// Golden root module is set to 'counter'
+0
+// Command: read_design -verilog95   -revised -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter.map.v
+// Command: read_design -verilog95 -revised -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter.map.v
+// Parsing file /home/DN03/COUNTER/OUTPUT/counter.map.v ...
+0
+// Command: elaborate_design -revised -root {counter}
+// Command: elaborate_design -revised -root counter
+// Revised root module is set to 'counter'
+0
+// Command: report_design_data
+// Command: report_design_data
+============================================
+Summary           Golden         Revised
+============================================
+Design-modules         2               2
+Library-cells         27              29
+============================================
+Primitives      Golden              Revised
+============================================
+INPUT                3                    3
+OUTPUT               8                    8
+--------------------------------------------
+AND                  5                    5
+DFF                  8                    8
+DLAT                 1                    1
+INV        *        10                   12
+NAND                10                   10
+NOR                  4                    4
+OR                   6                    6
+--------------------------------------------
+Total               44                   46
+
+0
+// Command: report_black_box
+// Command: report_black_box
+0
+// Command: set_flatten_model -seq_constant
+// Command: set_flatten_model -seq_constant
+0
+// Command: set_flatten_model -seq_constant_x_to 0
+// Command: set_flatten_model -seq_constant_x_to 0
+0
+// Command: set_flatten_model -nodff_to_dlat_zero
+// Command: set_flatten_model -nodff_to_dlat_zero
+0
+// Command: set_flatten_model -nodff_to_dlat_feedback
+// Command: set_flatten_model -nodff_to_dlat_feedback
+0
+// Command: set_flatten_model -hier_seq_merge
+// Command: set_flatten_model -hier_seq_merge
+0
+// Command: set_flatten_model -gated_clock
+// Command: set_flatten_model -gated_clock
+0
+// Command: set_analyze_option -auto -report_map
+// Command: set_analyze_option -auto -report_map
+// Error: Auto analysis requires a Conformal_Ultra license.
+To use this feature, start the tool with the -xl option.
+1
+    while executing
+"set_analyze_option -auto -report_map"
+// 'dofile /home/DN03/COUNTER/LEC/wlec_g1tog2_dofile' is aborted at line 116
+// Warning: Error exit from dofile 'wlec_g1tog2_dofile' due to 'set dofile abort exit' command

@@ -1,0 +1,69 @@
+                          CONFORMAL (R)
+                   Version 23.10-p100 (26-Apr-2023) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2023. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 740 days old. You can download the latest version from http://downloads.cadence.com.
+
+// Command: dofile wlec_rtltog1_dofile
+// Command: tclmode
+CPU time     : 0.58    seconds
+Elapse time  : 17      seconds
+Memory usage : 65.67   M bytes
+// Command: set_screen_display -noprogress
+0
+// Command: set_dofile_abort exit
+0
+// Command: set lec_version [regsub {(-)[A-Za-z]} $env(LEC_VERSION) ""]
+23.10100
+// Command: set wlec_analyze_dp_flowgraph true
+true
+// Command: set share_dp_analysis         true
+true
+// Command: set lec_version_required "19.10100"
+19.10100
+// Command: if {$lec_version >= $lec_version_required &&
+//              $wlec_analyze_dp_flowgraph} {
+//              set DATAPATH_SOLVER_OPTION "-flowgraph"
+//          } elseif {$share_dp_analysis} {
+//              set DATAPATH_SOLVER_OPTION "-share"
+//          } else {
+//              set DATAPATH_SOLVER_OPTION ""
+//          }
+-flowgraph
+// Command: proc is_pass {} {
+//              redirect -variable compare_result {report_verification}
+//              foreach i [split $compare_result "\n"] {
+//                  if {[regexp {Compare Results:\s+PASS} $i]} {
+//                      return true
+//                  }
+//              }
+//              return false
+//          }
+// Command: tcl_set_command_name_echo on
+// Command: usage -auto -elapse
+// Command: usage -auto -elapse
+CPU time     : 0.59    seconds
+Elapse time  : 18      seconds
+Memory usage : 65.76   M bytes
+0
+// Command: set_mapping_method -sensitive
+// Command: set_mapping_method -sensitive
+0
+// Command: set_verification_information fv_map_countermapv_db
+// Command: set_verification_information fv_map_countermapv_db
+// Note: Verification information fv_map_countermapv_db does not exist. New directory created.
+// Verification information is set to /home/DN03/COUNTER/LEC/fv_map_countermapv_db.
+0
+// Command: read_implementation_information fv/counter -golden fv_map -revised countermapv
+// Command: read_implementation_information fv/counter -golden fv_map -revised countermapv
+// Error: Directory /home/DN03/COUNTER/LEC/fv/counter does not exist.
+1
+    while executing
+"read_implementation_information fv/counter -golden fv_map -revised countermapv"
+// 'dofile /home/DN03/COUNTER/LEC/wlec_rtltog1_dofile' is aborted at line 57
+// Warning: Error exit from dofile 'wlec_rtltog1_dofile' due to 'set dofile abort exit' command

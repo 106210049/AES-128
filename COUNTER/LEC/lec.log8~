@@ -1,0 +1,465 @@
+                          CONFORMAL (R)
+                   Version 23.10-p100 (26-Apr-2023) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2023. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 740 days old. You can download the latest version from http://downloads.cadence.com.
+
+// Command: dofile wlec_g1tog2_dofile
+// Command: tclmode
+CPU time     : 0.53    seconds
+Elapse time  : 14      seconds
+Memory usage : 65.79   M bytes
+// Command: set_screen_display -noprogress
+0
+// Command: set_dofile_abort exit
+0
+// Command: set lec_version [regsub {(-)[A-Za-z]} $env(LEC_VERSION) ""]
+23.10100
+// Command: set wlec_analyze_dp_flowgraph true
+true
+// Command: set share_dp_analysis         true
+true
+// Command: set lec_version_required "19.10100"
+19.10100
+// Command: if {$lec_version >= $lec_version_required &&
+//              $wlec_analyze_dp_flowgraph} {
+//              set DATAPATH_SOLVER_OPTION "-flowgraph"
+//          } elseif {$share_dp_analysis} {
+//              set DATAPATH_SOLVER_OPTION "-share"
+//          } else {
+//              set DATAPATH_SOLVER_OPTION ""
+//          }
+-flowgraph
+// Command: tcl_set_command_name_echo on
+// Command: usage -auto -elapse
+// Command: usage -auto -elapse
+CPU time     : 0.55    seconds
+Elapse time  : 14      seconds
+Memory usage : 65.89   M bytes
+0
+// Command: set_mapping_method -sensitive
+// Command: set_mapping_method -sensitive
+0
+// Command: set_verification_information write_lec_generate_label.1_countermapv_db
+// Command: set_verification_information write_lec_generate_label.1_countermapv_db
+// Verification information is set to /home/DN03/COUNTER/LEC/write_lec_generate_label.1_countermapv_db.
+0
+// Command: set_parallel_option -threads 1,4 -norelease_license
+// Command: set_parallel_option -threads 1,4 -norelease_license
+// Number of threads is set to 1,4.
+0
+// Command: set_compare_options -threads 1,4
+// Command: set_compare_options -threads 1,4
+Set computing threads of compare to 1,4.
+0
+// Command: set env(RC_VERSION)     "22.12-s082_1"
+22.12-s082_1
+// Command: set env(CDN_SYNTH_ROOT) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86
+// Command: set CDN_SYNTH_ROOT      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86
+// Command: set env(CW_DIR) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware
+// Command: set CW_DIR      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware"
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware
+// Command: set lec_version_required "21.20249"
+21.20249
+// Command: if { ($lec_version < $lec_version_required) &&
+//              [file exists /mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/old_encrypt_sim]} {
+//              set env(CW_DIR_SIM) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/old_encrypt_sim"
+//              set CW_DIR_SIM      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/old_encrypt_sim"
+//          } else {
+//              set env(CW_DIR_SIM) "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/sim"
+//              set CW_DIR_SIM      "/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/sim"
+//          }
+/mnt/CADENCE/DDI_2232/GENUS221/tools.lnx86/lib/chipware/sim
+// Command: set_multiplier_implementation boothrca -both
+// Command: set_multiplier_implementation boothrca -both
+0
+// Command: set_undefined_cell black_box -noascend -both
+// Command: set_undefined_cell black_box -noascend -both
+0
+// Command: add_search_path /home/DN03/LIBS/lib/max -library -both
+// Command: add_search_path /home/DN03/LIBS/lib/max -library -both
+// Warning: Directory '/home/DN03/LIBS/lib/max' doesn't exist and is ignored
+0
+// Command: read_library -liberty -both \
+//              /home/DN03/AES128/LIBS/lib/max/leon.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM1_1024X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM1_256X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM1_4096X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_1024X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_128X16_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_128X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_136X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_2048X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_4096X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/MEM2_512X32_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/pllclk_slow.lib \
+//              /home/DN03/AES128/LIBS/lib/max/pdkIO.lib \
+//              /home/DN03/AES128/LIBS/lib/max/fast_vdd1v2_basicCells.lib
+// Command: read_library -liberty -both /home/DN03/AES128/LIBS/lib/max/leon.lib /home/DN03/AES128/LIBS/lib/max/MEM1_1024X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM1_256X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM1_4096X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_1024X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_128X16_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_128X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_136X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_2048X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_4096X32_slow.lib /home/DN03/AES128/LIBS/lib/max/MEM2_512X32_slow.lib /home/DN03/AES128/LIBS/lib/max/pllclk_slow.lib /home/DN03/AES128/LIBS/lib/max/pdkIO.lib /home/DN03/AES128/LIBS/lib/max/fast_vdd1v2_basicCells.lib
+// Parsing file /home/DN03/AES128/LIBS/lib/max/leon.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM1_1024X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM1_256X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM1_4096X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_1024X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_128X16_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_128X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_136X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_2048X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_4096X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/MEM2_512X32_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/pllclk_slow.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/pdkIO.lib ...
+// Parsing file /home/DN03/AES128/LIBS/lib/max/fast_vdd1v2_basicCells.lib ...
+// Warning: (RTL9.17) Cell doesn't have any output pins or all output pins are undriven (blackboxed) (occurrence:21)
+// Note: (RTL9.26) Liberty pin with internal_node use default input_map (occurrence:16)
+// Warning: (RTL14) Signal has input but it has no output (occurrence:2)
+// Note: Read Liberty library successfully
+0
+CPU time     : 0.80    seconds
+Elapse time  : 15      seconds
+Memory usage : 88.41   M bytes
+// Command: read_design -verilog95   -golden -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter_netlist.v
+// Command: read_design -verilog95 -golden -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter_netlist.v
+// Parsing file /home/DN03/COUNTER/OUTPUT/counter_netlist.v ...
+0
+// Command: elaborate_design -golden -root {counter}
+// Command: elaborate_design -golden -root counter
+// Golden root module is set to 'counter'
+0
+// Command: read_design -verilog95   -revised -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter.map.v
+// Command: read_design -verilog95 -revised -lastmod -noelab /home/DN03/COUNTER/OUTPUT/counter.map.v
+// Parsing file /home/DN03/COUNTER/OUTPUT/counter.map.v ...
+0
+// Command: elaborate_design -revised -root {counter}
+// Command: elaborate_design -revised -root counter
+// Revised root module is set to 'counter'
+0
+// Command: report_design_data
+// Command: report_design_data
+============================================
+Summary           Golden         Revised
+============================================
+Design-modules         2               2
+Library-cells         27              29
+============================================
+Primitives      Golden              Revised
+============================================
+INPUT                3                    3
+OUTPUT               8                    8
+--------------------------------------------
+AND                  5                    5
+DFF                  8                    8
+DLAT                 1                    1
+INV        *        10                   12
+NAND                10                   10
+NOR                  4                    4
+OR                   6                    6
+--------------------------------------------
+Total               44                   46
+
+0
+// Command: report_black_box
+// Command: report_black_box
+0
+// Command: set_flatten_model -seq_constant
+// Command: set_flatten_model -seq_constant
+0
+// Command: set_flatten_model -seq_constant_x_to 0
+// Command: set_flatten_model -seq_constant_x_to 0
+0
+// Command: set_flatten_model -nodff_to_dlat_zero
+// Command: set_flatten_model -nodff_to_dlat_zero
+0
+// Command: set_flatten_model -nodff_to_dlat_feedback
+// Command: set_flatten_model -nodff_to_dlat_feedback
+0
+// Command: set_flatten_model -hier_seq_merge
+// Command: set_flatten_model -hier_seq_merge
+0
+// Command: set_flatten_model -gated_clock
+// Command: set_flatten_model -gated_clock
+0
+// Command: set_analyze_option -auto -report_map
+// Command: set_analyze_option -auto -report_map
+0
+// Command: set_system_mode lec
+// Command: set_system_mode lec
+// Processing Golden ...
+// Modeling Golden ...
+// Processing Revised ...
+// Modeling Revised ...
+// Balanced modeling (auto) mapped 18 out of 18 DFF/DLATs
+// (F14) Remodeled 8 gated-clock DFF/DLAT(s)
+// (F14) Remodeled 8 gated-clock DFF/DLAT(s)
+// Mapping key points ...
+================================================================================
+Mapped points: SYSTEM class
+--------------------------------------------------------------------------------
+Mapped points     PI     PO     DFF       Total   
+--------------------------------------------------------------------------------
+Golden            3      8      8         19      
+--------------------------------------------------------------------------------
+Revised           3      8      8         19      
+================================================================================
+Unmapped points:
+================================================================================
+Golden:
+--------------------------------------------------------------------------------
+Unmapped points   DLAT      Total   
+--------------------------------------------------------------------------------
+Unreachable       1         1       
+================================================================================
+Revised:
+--------------------------------------------------------------------------------
+Unmapped points   DLAT      Total   
+--------------------------------------------------------------------------------
+Unreachable       1         1       
+================================================================================
+// Running automatic setup...
+================================================================================
+Mapped points: SYSTEM class
+--------------------------------------------------------------------------------
+Mapped points     PI     PO     DFF       Total   
+--------------------------------------------------------------------------------
+Golden            3      8      8         19      
+--------------------------------------------------------------------------------
+Revised           3      8      8         19      
+================================================================================
+Unmapped points:
+================================================================================
+Golden:
+--------------------------------------------------------------------------------
+Unmapped points   DLAT      Total   
+--------------------------------------------------------------------------------
+Unreachable       1         1       
+================================================================================
+Revised:
+--------------------------------------------------------------------------------
+Unmapped points   DLAT      Total   
+--------------------------------------------------------------------------------
+Unreachable       1         1       
+================================================================================
+// Automatic setup finished.
+0
+// Command: report_unmapped_points -summary
+// Command: report_unmapped_points -summary
+================================================================================
+Golden:
+--------------------------------------------------------------------------------
+Unmapped points   DLAT      Total   
+--------------------------------------------------------------------------------
+Unreachable       1         1       
+================================================================================
+Revised:
+--------------------------------------------------------------------------------
+Unmapped points   DLAT      Total   
+--------------------------------------------------------------------------------
+Unreachable       1         1       
+================================================================================
+0
+// Command: report_unmapped_points -notmapped
+// Command: report_unmapped_points -notmapped
+
+0 unmapped points reported
+0
+// Command: add_compared_points -all
+// Command: add_compared_points -all
+// 16 compared points added to compare list
+0
+// Command: compare
+// Command: compare
+================================================================================
+Compared points      PO     DFF       Total   
+--------------------------------------------------------------------------------
+Equivalent           8      8         16      
+================================================================================
+0
+// Command: report_compare_data -class nonequivalent -class abort -class notcompared
+// Command: report_compare_data -class nonequivalent -class abort -class notcompared
+0 Non-equivalent point(s) reported
+0 Abort point(s) reported
+0 Not-compared point(s) reported
+0 compared point(s) reported
+================================================================================
+Compared points      PO     DFF       Total   
+--------------------------------------------------------------------------------
+Equivalent           8      8         16      
+================================================================================
+0
+// Command: report_verification -verbose
+// Command: report_verification -verbose
+================================================================================
+                            Verification Report
+--------------------------------------------------------------------------------
+Category                                                                  Count
+--------------------------------------------------------------------------------
+1. Non-standard modeling options used:                                      0
+     Tri-stated output:                                        checked
+     Revised X signals set to E:                               yes
+     Floating signals tied to Z:                               yes
+     Command "add clock" for clock-gating:                     not used
+--------------------------------------------------------------------------------
+2. Incomplete verification:                                                 0
+     All primary outputs are mapped:                           yes
+     Not-mapped DFF/DLAT is detected:                          no
+     All mapped points are added as compare points:            yes
+     All compared points are compared:                         yes
+     User added black box:                                     no
+     Black box mapped with different module name:              no
+     Empty module is not black boxed:                          no
+     Command "add ignore outputs" used:                        no
+     Always false constraints detected:                        no
+--------------------------------------------------------------------------------
+3. User modification to design:                                             0
+     Change gate type:                                         no
+     Change wire:                                              no
+     Primary input added by user:                              no
+--------------------------------------------------------------------------------
+4. Conformal Constraint Designer clock domain crossing checks recommended:  0
+     Multiple clocks in the design:                            no
+--------------------------------------------------------------------------------
+5. Design ambiguity:                                                        0
+     Duplicate module definition:                              no
+     Black box due to undefined cells:                         no
+     Golden design has abnormal ratio of unreachable gates:    no
+     Ratio of golden unreachable gates:                        2%
+     Revised design has abnormal ratio of unreachable gates:   no
+     Ratio of revised unreachable gates:                       2%
+     All primary input bus ordering is consistent:             yes
+     All primary output bus ordering is consistent:            yes
+     DFF/DLAT not compared due to disabled clock port(s):        0
+     Always X compared point is detected:                      not checked
+--------------------------------------------------------------------------------
+6. Compare Results:                                                        PASS
+     Number of EQ compare points:                              16
+     Number of NON-EQ compare points:                          0
+     Number of Aborted compare points:                         0
+     Number of Uncompared compare points :                     0
+================================================================================
+pass
+// Command: report_statistics
+// Command: report_statistics
+Mapping and compare statistics
+================================================================================
+                     Compare Result       Golden            Revised
+--------------------------------------------------------------------------------
+Root module name                          counter           counter           
+
+Primary inputs                                 3                  3
+   Mapped                                      3                  3
+
+Primary outputs                                8                  8
+   Mapped                                      8                  8
+      Equivalent                  8
+
+State key points                               9                  9
+   Mapped                                      8                  8
+      Equivalent                  8
+   Unmapped                                    1                  1
+      Unreachable                              1                  1
+================================================================================
+0
+// Command: write_compared_points noneq.compared_points.counter.write_lec_generate_label.1.countermapv.tcl -class noneq -tclmode -replace
+// Command: write_compared_points noneq.compared_points.counter.write_lec_generate_label.1.countermapv.tcl -class noneq -tclmode -replace
+0
+// Command: set lec_version_required "21.10100"
+21.10100
+// Command: if {$lec_version >= $lec_version_required} {
+//              analyze_nonequivalent -source_diagnosis
+//              report_nonequivalent_analysis > noneq.source_diag.counter.write_lec_generate_label.1.countermapv.rpt
+//          }
+// Command: analyze_nonequivalent -source_diagnosis
+// Warning: Non-equivalent points do not exist.
+// Command: report_nonequivalent_analysis > noneq.source_diag.counter.write_lec_generate_label.1.countermapv.rpt
+0
+// Command: report_test_vector -noneq > noneq.test_vector.counter.write_lec_generate_label.1.countermapv.rpt
+// Command: report_test_vector -noneq > noneq.test_vector.counter.write_lec_generate_label.1.countermapv.rpt
+0
+// Command: write_verification_information
+// Command: write_verification_information
+// Verification information is written to write_lec_generate_label.1_countermapv_db.
+0
+// Command: report_verification_information
+// Command: report_verification_information
+// Generating reports on verification information at /home/DN03/COUNTER/LEC/write_lec_generate_label.1_countermapv_db...
+LEC run scores:
+================================================================================
+Step                Score     Range          
+--------------------------------------------------------------------------------
+result_status       10        10             
+runtime             10        10             
+mapping             10        10             
+sequential_constant 5         10             
+sequential_merge    5         10             
+sequential_phase    5         10             
+datapath_analysis   5         10             
+combinational_loop  5         10             
+mismatch_detection  5         10             
+overall             60        90             
+================================================================================
+LEC results versus attributes:
+================================================================================
+Attribute           Total     Inconsistency  Combined Table                
+--------------------------------------------------------------------------------
+sequential_constant 0         0                                            
+sequential_merge    0         0                                            
+sequential_phase    8         0              sequential_phase.json         
+================================================================================
+The tables can be viewed directly using web interface.
+// Done with reporting verification information.
+0
+// Command: set lec_version_required "18.20330"
+18.20330
+// Command: if {$lec_version >= $lec_version_required} {
+//          }
+// Command: puts "No of compare points = [get_compare_points -count]"
+// Command: get_compare_points -count
+No of compare points = 16
+// Command: puts "No of diff points    = [get_compare_points -NONequivalent -count]"
+// Command: get_compare_points -NONequivalent -count
+No of diff points    = 0
+// Command: puts "No of abort points   = [get_compare_points -abort -count]"
+// Command: get_compare_points -abort -count
+No of abort points   = 0
+// Command: puts "No of unknown points = [get_compare_points -unknown -count]"
+// Command: get_compare_points -unknown -count
+No of unknown points = 0
+// Command: if {[get_compare_points -count] == 0} {
+//              puts "---------------------------------"
+//              puts "ERROR: No compare points detected"
+//              puts "---------------------------------"
+//          }
+// Command: get_compare_points -count
+// Command: if {[get_compare_points -NONequivalent -count] > 0} {
+//              puts "------------------------------------"
+//              puts "ERROR: Different Key Points detected"
+//              puts "------------------------------------"
+//          }
+// Command: get_compare_points -NONequivalent -count
+// Command: if {[get_compare_points -abort -count] > 0} {
+//              puts "-----------------------------"
+//              puts "ERROR: Abort Points detected "
+//              puts "-----------------------------"
+//          }
+// Command: get_compare_points -abort -count
+// Command: if {[get_compare_points -unknown -count] > 0} {
+//              puts "----------------------------------"
+//              puts "ERROR: Unknown Key Points detected"
+//              puts "----------------------------------"
+//          }
+// Command: get_compare_points -unknown -count
+// Command: set lec_version_required "19.10100"
+19.10100
+// Command: if {$lec_version >= $lec_version_required} {
+//          }
+// Command: vpxmode
+// Command: vpxmode
+// Command: exit -f

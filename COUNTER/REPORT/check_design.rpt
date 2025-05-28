@@ -1,0 +1,118 @@
+
+ 	 Check Design Report (c)
+	 ------------------- 
+No subdesign's name is greater than 1.5k in length.
+
+ Feedthrough Module(s)
+ -------------------------
+No feed through module in 'counter'
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'counter'
+
+No empty modules in design 'counter'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'counter'
+
+No unloaded port in 'counter'
+
+ Unloaded Combinational Pin(s)
+ -------------------------------
+No unloaded combinational element in 'counter'
+
+ Assigns
+ ------- 
+Total number of assign statements in design 'counter' : 0
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'counter'
+
+No undriven sequential pin in 'counter'
+
+No undriven hierarchical pin in 'counter'
+
+No undriven port in 'counter'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+No multidriven combinational pin in 'counter'
+
+No multidriven sequential pin in 'counter'
+
+No multidriven hierarchical pin in 'counter'
+
+No multidriven ports in 'counter'
+
+No multidriven unloaded nets in 'counter'
+
+  Constant Pin(s)
+  ----------------
+No constant combinational pin(s) in design 'counter'
+
+No constant sequential pin(s) in design 'counter'
+
+design 'counter' has the following constant input hierarchical pin(s)
+hpin:counter/add_14_16/B 	 (fanout : 2)
+Total number of constant hierarchical pins in design 'counter' : 1
+
+No constant connected ports in design 'counter'
+
+  Preserved instances(s)
+  ----------------
+No preserved combinational instance(s) in design 'counter'
+No preserved sequential instance(s) in design 'counter'
+No preserved hierarchical instance(s) in design 'counter'
+
+  Physical only instances(s)
+  ----------------
+No physical only instance(s) in design 'counter'
+
+  Logical only instance(s) and linked libcells
+    -----------------------------------------
+No logical only instance(s) in design 'counter'
+
+Libcells with no corresponding LEF
+----------------------------------
+No libcell(s) found.
+
+LEF cells with no corresponding libcell
+---------------------------------------
+
+No physical (LEF) cells found.
+
+ Summary
+ ------- 
+
+              Name                       Total
+----------------------------------------------
+Unresolved References                        0
+Empty Modules                                0
+Unloaded Port(s)                             0
+Unloaded Sequential Pin(s)                   0
+Unloaded Combinational Pin(s)                0
+Assigns                                      0
+Undriven Port(s)                             0
+Undriven Leaf Pin(s)                         0
+Undriven hierarchical pin(s)                 0
+Multidriven Port(s)                          0
+Multidriven Leaf Pin(s)                      0
+Multidriven hierarchical Pin(s)              0
+Multidriven unloaded net(s)                  0
+Constant Port(s)                             0
+Constant Leaf Pin(s)                         0
+Constant hierarchical Pin(s)                 1
+Preserved leaf instance(s)                   0
+Preserved hierarchical instance(s)           0
+Feedthrough Modules(s)                       0
+Libcells with no LEF cell                    0
+Physical (LEF) cells with no libcell         0
+Subdesigns with long module name             0
+Physical only instance(s)                    0
+Logical only instance(s)                     0
+
+  Done Checking the design.

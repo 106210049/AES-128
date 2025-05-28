@@ -1,0 +1,100 @@
+{
+ "filetype": "conformal-table",
+ "data": [
+  {
+   "Object": "/q_reg_6/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_6/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_5/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_5/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_3/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_3/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_7/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_7/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_2/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_2/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_1/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_1/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_0/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_0/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/q_reg_4/U$1",
+   "Type": "DFF",
+   "Mapping": "/q_reg_4/U$1",
+   "Phase": "+",
+   "User Setup object phase inversion": "",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  }
+ ],
+ "cols": [
+  {
+   "key": "Object"
+  },
+  {
+   "key": "Type"
+  },
+  {
+   "key": "Mapping"
+  },
+  {
+   "key": "Phase"
+  },
+  {
+   "key": "User Setup object phase inversion"
+  },
+  {
+   "key": "User Setup mapped object phase inversion"
+  }
+ ],
+ "sort": [
+  "-highlite"
+ ]
+}
