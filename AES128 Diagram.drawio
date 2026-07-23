@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiJNM2lctQ0j9i18_cf" name="AES CORE">
-    <mxGraphModel dx="1490" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -707,6 +707,12 @@
         </mxCell>
         <mxCell id="uDCisL2hEfbEsaLLXyAb-15" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="finished" vertex="1">
           <mxGeometry height="20" width="75" x="437.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fogyi-BGkz_uXYL8H-s7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AES CIPHER" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fogyi-BGkz_uXYL8H-s7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AES DECIPHER" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
