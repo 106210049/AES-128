@@ -660,7 +660,7 @@
         <mxCell id="WMzCJOEueYzWrDLUOkBt-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" value="AES Cipher" vertex="1">
           <mxGeometry height="120" width="160" x="420" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="WMzCJOEueYzWrDLUOkBt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" value="AES decipher" vertex="1">
+        <mxCell id="WMzCJOEueYzWrDLUOkBt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;fontStyle=1" value="AES decipher" vertex="1">
           <mxGeometry height="120" width="160" x="420" y="680" as="geometry" />
         </mxCell>
         <mxCell id="shQuIsa-uxxgtMwDUgnT-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -771,7 +771,7 @@
         <mxCell id="eV27PBaa6bGejfaZdWJy-3" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="decipher_ready" vertex="1">
           <mxGeometry height="20" width="75" x="592.5" y="735" as="geometry" />
         </mxCell>
-        <mxCell id="b9eGKg3RodQNm1fALWba-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" value="AES Cipher" vertex="1">
+        <mxCell id="b9eGKg3RodQNm1fALWba-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;fontStyle=1" value="AES Cipher" vertex="1">
           <mxGeometry height="120" width="160" x="420" y="480" as="geometry" />
         </mxCell>
         <mxCell id="b9eGKg3RodQNm1fALWba-2" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="rst_n" vertex="1">
