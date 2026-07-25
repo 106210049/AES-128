@@ -1,0 +1,61 @@
+# Saving coverage database on exit...
+# End time: 23:26:03 on Jul 25,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 2
+# vsim -c -coverage -sv_lib ./build/aes work.tb_aes_core "+TESTNAME=DECRYPT" -onfinish final -do "run -all; coverage save -onexit DECRYPT.ucdb;" -debugDB 
+# Start time: 23:26:03 on Jul 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.testcase_pkg(fast)
+# Loading work.testbench_sv_unit(fast)
+# Loading work.tb_aes_core(fast)
+# Loading work.aes_if(fast)
+# Loading work.aes_top(fast)
+# Loading work.AES_DECIPHER(fast)
+# Loading work.AES_Decipher_Core(fast)
+# Loading work.AES_Decipher_Controller(fast)
+# Loading work.AddRoundKey(fast)
+# Loading work.InvShiftRows(fast)
+# Loading work.InvSubBytes(fast)
+# Loading work.aes_inv_Sbox(fast)
+# Loading work.InvMixColumns(fast)
+# Loading work.inv_mix_col(fast)
+# Loading work.decipher_mul(fast)
+# Loading work.mul2(fast)
+# Loading work.AES_Inv_Key_Expand(fast)
+# Loading work.rotWord(fast)
+# Loading work.subWord(fast)
+# Loading work.aes_Sbox(fast)
+# Loading work.InvRcon(fast)
+# Loading work.test(fast)
+# Loading work.aes_if(fast)
+# Loading .\./build/aes.dll
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# run -all
+# [TEST] TESTNAME=DECRYPT TIMEOUT=3000
+# [0][GEN] data_in: 69c4e0d86a7b0430d8cdb78070b4c55a, key: 13111d7fe3944a17f307a78b4d2b30c5, data_out: 00000000000000000000000000000000, finished: 0
+# [0][DRV] data_in: 69c4e0d86a7b0430d8cdb78070b4c55a, key: 13111d7fe3944a17f307a78b4d2b30c5, data_out: 00000000000000000000000000000000, finished: 0
+# [105][MON] data_in: 69c4e0d86a7b0430d8cdb78070b4c55a, key: 13111d7fe3944a17f307a78b4d2b30c5, data_out: 00112233445566778899aabbccddeeff, finished: 1
+# [105][DRV] DECRYPT done, Output=00112233445566778899aabbccddeeff
+# decryptInput: 69c4e0d86a7b0430d8cdb78070b4c55a
+# 
+# decryptKey:   13111d7fe3944a17f307a78b4d2b30c5
+# 
+# [SCB] Golden Model: Data=69c4e0d86a7b0430d8cdb78070b4c55a Key=13111d7fe3944a17f307a78b4d2b30c5 Result=00112233445566778899aabbccddeeff
+# [SCB][PASS] 105: Match!
+#   Compare ID : 1
+#   Data       : 69c4e0d86a7b0430d8cdb78070b4c55a
+#   Key        : 13111d7fe3944a17f307a78b4d2b30c5
+#   Data Out   : 00112233445566778899aabbccddeeff
+#   REF_out    : 00112233445566778899aabbccddeeff
+# [TEST] TIMEOUT reached
+# ========================================
+# [SCB] AES Scoreboard Report
+#   Total compare : 1
+#   PASS          : 1
+#   FAIL          : 0
+# ========================================
+# ** Note: $finish    : ./TB/test.sv(52)
+#    Time: 155 ns  Iteration: 4  Instance: /tb_aes_core/t1
+# Break in Module tb_aes_core at ./TB/testbench.sv line 33
+#  coverage save -onexit DECRYPT.ucdb
+# 

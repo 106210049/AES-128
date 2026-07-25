@@ -1,0 +1,53 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project AES
+do regression.do
+# RANDOM_TEST ENCRYPT MID_RESET_ENCRYPT
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:25:05 on Jul 25,2026
+# vlog -reportprogress 300 "+cover" ./RTL/aes_top.sv ./TB/testbench.sv 
+# -- Compiling module AES_Cipher_Controller
+# -- Compiling module AddRoundKey
+# -- Compiling module aes_Sbox
+# -- Compiling module SubBytes
+# -- Compiling module ShiftRows
+# -- Compiling module mul
+# -- Compiling module mixCol
+# -- Compiling module MixColumns
+# -- Compiling module AES_Cipher_Core
+# -- Compiling module rotWord
+# ** Warning: ** while parsing file included at ./RTL/aes_top.sv(5)
+# ** while parsing file included at .\RTL\AES_CIPHER.sv(3)
+# ** while parsing file included at .\RTL\AES_Key_Expand.sv(3)
+# ** while parsing file included at .\RTL\subWord.sv(1)
+# ** at .\RTL\aes_Sbox.sv(1): (vlog-2275) 'aes_Sbox' already exists and will be overwritten.
+# -- Compiling module aes_Sbox
+# -- Compiling module subWord
+# -- Compiling module Rcon
+# -- Compiling module addWord
+# -- Compiling module AES_Key_Expand
+# -- Compiling module AES_CIPHER
+# -- Compiling module aes_top
+# -- Compiling package testbench_sv_unit
+# -- Importing package testcase_pkg
+# -- Compiling package testcase_pkg
+# -- Compiling interface aes_if
+# -- Compiling program test
+# -- Compiling module tb_aes_core
+# 
+# Top level modules:
+# 	tb_aes_core
+# End time: 23:25:05 on Jul 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

@@ -1,0 +1,196 @@
+# vsim -c -coverage -sv_lib ./build/aes work.tb_aes_core "+TESTNAME=RANDOM_TEST" -onfinish final -do "run -all; coverage save -onexit RANDOM_TEST.ucdb;" -debugDB 
+# Start time: 23:25:53 on Jul 25,2026
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading sv_std.std
+# Loading work.testcase_pkg(fast)
+# Loading work.testbench_sv_unit(fast)
+# Loading work.tb_aes_core(fast)
+# Loading work.aes_if(fast)
+# Loading work.aes_top(fast)
+# Loading work.AES_DECIPHER(fast)
+# Loading work.AES_Decipher_Core(fast)
+# Loading work.AES_Decipher_Controller(fast)
+# Loading work.AddRoundKey(fast)
+# Loading work.InvShiftRows(fast)
+# Loading work.InvSubBytes(fast)
+# Loading work.aes_inv_Sbox(fast)
+# Loading work.InvMixColumns(fast)
+# Loading work.inv_mix_col(fast)
+# Loading work.decipher_mul(fast)
+# Loading work.mul2(fast)
+# Loading work.AES_Inv_Key_Expand(fast)
+# Loading work.rotWord(fast)
+# Loading work.subWord(fast)
+# Loading work.aes_Sbox(fast)
+# Loading work.InvRcon(fast)
+# Loading work.test(fast)
+# Loading work.aes_if(fast)
+# Loading .\./build/aes.dll
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# run -all
+# [TEST] TESTNAME=RANDOM_TEST TIMEOUT=3000
+# [0][GEN] data_in: 3515c2759056fb6251fa934a5dcb6b7c, key: e6a9ccc707ce1471293acb69d1e3b9a2, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 69a8066d6bd9c2b0b4dfb5a00353e6a9, key: 03731c61791a3f379f38cdd24ecd7c2e, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 899096e60e2846ce647db4acf93ad7a4, key: 679b72723f27260c7036a5a1475126d4, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 1c3f102ee4d17909285d172a8571cea1, key: 526e8c1067247bd3101a81d5efa9ac10, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: ae256d5f33b8263cc1ffcf90ddde39de, key: 68b4c47258b51499badd0a54c798e183, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 077c230e48e6ec80fdb51faafb201097, key: db4a92ac979eefb56a65f5d413be4614, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 6ff32409d255fe063a55fc0cc5e7d1a4, key: 9a4065e2a106b6a1f3c845cc985a8254, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 8680252427058aa4c229767fdfd2af89, key: 2825b3cda8ed471a35e84be3a3c9e273, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 6a7828c6d38db6c59b6fc90cb68d6cc8, key: cae01910335823146c7aff28d00b59b6, data_out: 00000000000000000000000000000000, finished: 0
+# [0][GEN] data_in: 6a0d21857ac6a4fe549af6364528f408, key: 3dc4a33a3caff2860d2878a279c73751, data_out: 00000000000000000000000000000000, finished: 0
+# [0][DRV] data_in: 3515c2759056fb6251fa934a5dcb6b7c, key: e6a9ccc707ce1471293acb69d1e3b9a2, data_out: 00000000000000000000000000000000, finished: 0
+# [105][MON] data_in: 3515c2759056fb6251fa934a5dcb6b7c, key: e6a9ccc707ce1471293acb69d1e3b9a2, data_out: 98b6da992f45503d0bc5f8ee470cd1b4, finished: 1
+# [105][DRV] RANDOM_TEST done, Output=98b6da992f45503d0bc5f8ee470cd1b4
+# decryptInput: 3515c2759056fb6251fa934a5dcb6b7c
+# 
+# decryptKey:   e6a9ccc707ce1471293acb69d1e3b9a2
+# 
+# [SCB] Golden Model: Data=3515c2759056fb6251fa934a5dcb6b7c Key=e6a9ccc707ce1471293acb69d1e3b9a2 Result=98b6da992f45503d0bc5f8ee470cd1b4
+# [SCB][PASS] 105: Match!
+#   Compare ID : 1
+#   Data       : 3515c2759056fb6251fa934a5dcb6b7c
+#   Key        : e6a9ccc707ce1471293acb69d1e3b9a2
+#   Data Out   : 98b6da992f45503d0bc5f8ee470cd1b4
+#   REF_out    : 98b6da992f45503d0bc5f8ee470cd1b4
+# [105][DRV] data_in: 69a8066d6bd9c2b0b4dfb5a00353e6a9, key: 03731c61791a3f379f38cdd24ecd7c2e, data_out: 00000000000000000000000000000000, finished: 0
+# [215][MON] data_in: 69a8066d6bd9c2b0b4dfb5a00353e6a9, key: 03731c61791a3f379f38cdd24ecd7c2e, data_out: 72053e74677912e1e71006accd69dcad, finished: 1
+# [215][DRV] RANDOM_TEST done, Output=72053e74677912e1e71006accd69dcad
+# decryptInput: 69a8066d6bd9c2b0b4dfb5a00353e6a9
+# 
+# decryptKey:   03731c61791a3f379f38cdd24ecd7c2e
+# 
+# [SCB] Golden Model: Data=69a8066d6bd9c2b0b4dfb5a00353e6a9 Key=03731c61791a3f379f38cdd24ecd7c2e Result=72053e74677912e1e71006accd69dcad
+# [SCB][PASS] 215: Match!
+#   Compare ID : 2
+#   Data       : 69a8066d6bd9c2b0b4dfb5a00353e6a9
+#   Key        : 03731c61791a3f379f38cdd24ecd7c2e
+#   Data Out   : 72053e74677912e1e71006accd69dcad
+#   REF_out    : 72053e74677912e1e71006accd69dcad
+# [215][DRV] data_in: 899096e60e2846ce647db4acf93ad7a4, key: 679b72723f27260c7036a5a1475126d4, data_out: 00000000000000000000000000000000, finished: 0
+# [325][MON] data_in: 899096e60e2846ce647db4acf93ad7a4, key: 679b72723f27260c7036a5a1475126d4, data_out: ecbe062f2c586a9bba40cb1f72bb1c1d, finished: 1
+# [325][DRV] RANDOM_TEST done, Output=ecbe062f2c586a9bba40cb1f72bb1c1d
+# decryptInput: 899096e60e2846ce647db4acf93ad7a4
+# 
+# decryptKey:   679b72723f27260c7036a5a1475126d4
+# 
+# [SCB] Golden Model: Data=899096e60e2846ce647db4acf93ad7a4 Key=679b72723f27260c7036a5a1475126d4 Result=ecbe062f2c586a9bba40cb1f72bb1c1d
+# [SCB][PASS] 325: Match!
+#   Compare ID : 3
+#   Data       : 899096e60e2846ce647db4acf93ad7a4
+#   Key        : 679b72723f27260c7036a5a1475126d4
+#   Data Out   : ecbe062f2c586a9bba40cb1f72bb1c1d
+#   REF_out    : ecbe062f2c586a9bba40cb1f72bb1c1d
+# [325][DRV] data_in: 1c3f102ee4d17909285d172a8571cea1, key: 526e8c1067247bd3101a81d5efa9ac10, data_out: 00000000000000000000000000000000, finished: 0
+# [435][MON] data_in: 1c3f102ee4d17909285d172a8571cea1, key: 526e8c1067247bd3101a81d5efa9ac10, data_out: d481c4ee847d3998248a240dfaf45c4b, finished: 1
+# [435][DRV] RANDOM_TEST done, Output=d481c4ee847d3998248a240dfaf45c4b
+# decryptInput: 1c3f102ee4d17909285d172a8571cea1
+# 
+# decryptKey:   526e8c1067247bd3101a81d5efa9ac10
+# 
+# [SCB] Golden Model: Data=1c3f102ee4d17909285d172a8571cea1 Key=526e8c1067247bd3101a81d5efa9ac10 Result=d481c4ee847d3998248a240dfaf45c4b
+# [SCB][PASS] 435: Match!
+#   Compare ID : 4
+#   Data       : 1c3f102ee4d17909285d172a8571cea1
+#   Key        : 526e8c1067247bd3101a81d5efa9ac10
+#   Data Out   : d481c4ee847d3998248a240dfaf45c4b
+#   REF_out    : d481c4ee847d3998248a240dfaf45c4b
+# [435][DRV] data_in: ae256d5f33b8263cc1ffcf90ddde39de, key: 68b4c47258b51499badd0a54c798e183, data_out: 00000000000000000000000000000000, finished: 0
+# [545][MON] data_in: ae256d5f33b8263cc1ffcf90ddde39de, key: 68b4c47258b51499badd0a54c798e183, data_out: 1d07d327cbc38813026b31f66da34ea5, finished: 1
+# [545][DRV] RANDOM_TEST done, Output=1d07d327cbc38813026b31f66da34ea5
+# decryptInput: ae256d5f33b8263cc1ffcf90ddde39de
+# 
+# decryptKey:   68b4c47258b51499badd0a54c798e183
+# 
+# [SCB] Golden Model: Data=ae256d5f33b8263cc1ffcf90ddde39de Key=68b4c47258b51499badd0a54c798e183 Result=1d07d327cbc38813026b31f66da34ea5
+# [SCB][PASS] 545: Match!
+#   Compare ID : 5
+#   Data       : ae256d5f33b8263cc1ffcf90ddde39de
+#   Key        : 68b4c47258b51499badd0a54c798e183
+#   Data Out   : 1d07d327cbc38813026b31f66da34ea5
+#   REF_out    : 1d07d327cbc38813026b31f66da34ea5
+# [545][DRV] data_in: 077c230e48e6ec80fdb51faafb201097, key: db4a92ac979eefb56a65f5d413be4614, data_out: 00000000000000000000000000000000, finished: 0
+# [655][MON] data_in: 077c230e48e6ec80fdb51faafb201097, key: db4a92ac979eefb56a65f5d413be4614, data_out: 99b87718757a3655fd601e6dd9ddedf7, finished: 1
+# [655][DRV] RANDOM_TEST done, Output=99b87718757a3655fd601e6dd9ddedf7
+# decryptInput: 077c230e48e6ec80fdb51faafb201097
+# 
+# decryptKey:   db4a92ac979eefb56a65f5d413be4614
+# 
+# [SCB] Golden Model: Data=077c230e48e6ec80fdb51faafb201097 Key=db4a92ac979eefb56a65f5d413be4614 Result=99b87718757a3655fd601e6dd9ddedf7
+# [SCB][PASS] 655: Match!
+#   Compare ID : 6
+#   Data       : 077c230e48e6ec80fdb51faafb201097
+#   Key        : db4a92ac979eefb56a65f5d413be4614
+#   Data Out   : 99b87718757a3655fd601e6dd9ddedf7
+#   REF_out    : 99b87718757a3655fd601e6dd9ddedf7
+# [655][DRV] data_in: 6ff32409d255fe063a55fc0cc5e7d1a4, key: 9a4065e2a106b6a1f3c845cc985a8254, data_out: 00000000000000000000000000000000, finished: 0
+# [765][MON] data_in: 6ff32409d255fe063a55fc0cc5e7d1a4, key: 9a4065e2a106b6a1f3c845cc985a8254, data_out: 62ed86fbca45087db71a6894d11025e9, finished: 1
+# [765][DRV] RANDOM_TEST done, Output=62ed86fbca45087db71a6894d11025e9
+# decryptInput: 6ff32409d255fe063a55fc0cc5e7d1a4
+# 
+# decryptKey:   9a4065e2a106b6a1f3c845cc985a8254
+# 
+# [SCB] Golden Model: Data=6ff32409d255fe063a55fc0cc5e7d1a4 Key=9a4065e2a106b6a1f3c845cc985a8254 Result=62ed86fbca45087db71a6894d11025e9
+# [SCB][PASS] 765: Match!
+#   Compare ID : 7
+#   Data       : 6ff32409d255fe063a55fc0cc5e7d1a4
+#   Key        : 9a4065e2a106b6a1f3c845cc985a8254
+#   Data Out   : 62ed86fbca45087db71a6894d11025e9
+#   REF_out    : 62ed86fbca45087db71a6894d11025e9
+# [765][DRV] data_in: 8680252427058aa4c229767fdfd2af89, key: 2825b3cda8ed471a35e84be3a3c9e273, data_out: 00000000000000000000000000000000, finished: 0
+# [875][MON] data_in: 8680252427058aa4c229767fdfd2af89, key: 2825b3cda8ed471a35e84be3a3c9e273, data_out: d068052768a5c4c52e97b7e70e5304d6, finished: 1
+# [875][DRV] RANDOM_TEST done, Output=d068052768a5c4c52e97b7e70e5304d6
+# decryptInput: 8680252427058aa4c229767fdfd2af89
+# 
+# decryptKey:   2825b3cda8ed471a35e84be3a3c9e273
+# 
+# [SCB] Golden Model: Data=8680252427058aa4c229767fdfd2af89 Key=2825b3cda8ed471a35e84be3a3c9e273 Result=d068052768a5c4c52e97b7e70e5304d6
+# [SCB][PASS] 875: Match!
+#   Compare ID : 8
+#   Data       : 8680252427058aa4c229767fdfd2af89
+#   Key        : 2825b3cda8ed471a35e84be3a3c9e273
+#   Data Out   : d068052768a5c4c52e97b7e70e5304d6
+#   REF_out    : d068052768a5c4c52e97b7e70e5304d6
+# [875][DRV] data_in: 6a7828c6d38db6c59b6fc90cb68d6cc8, key: cae01910335823146c7aff28d00b59b6, data_out: 00000000000000000000000000000000, finished: 0
+# [985][MON] data_in: 6a7828c6d38db6c59b6fc90cb68d6cc8, key: cae01910335823146c7aff28d00b59b6, data_out: 72e0382502d523e75cb65bf3f153cb6b, finished: 1
+# [985][DRV] RANDOM_TEST done, Output=72e0382502d523e75cb65bf3f153cb6b
+# decryptInput: 6a7828c6d38db6c59b6fc90cb68d6cc8
+# 
+# decryptKey:   cae01910335823146c7aff28d00b59b6
+# 
+# [SCB] Golden Model: Data=6a7828c6d38db6c59b6fc90cb68d6cc8 Key=cae01910335823146c7aff28d00b59b6 Result=72e0382502d523e75cb65bf3f153cb6b
+# [SCB][PASS] 985: Match!
+#   Compare ID : 9
+#   Data       : 6a7828c6d38db6c59b6fc90cb68d6cc8
+#   Key        : cae01910335823146c7aff28d00b59b6
+#   Data Out   : 72e0382502d523e75cb65bf3f153cb6b
+#   REF_out    : 72e0382502d523e75cb65bf3f153cb6b
+# [985][DRV] data_in: 6a0d21857ac6a4fe549af6364528f408, key: 3dc4a33a3caff2860d2878a279c73751, data_out: 00000000000000000000000000000000, finished: 0
+# [1095][MON] data_in: 6a0d21857ac6a4fe549af6364528f408, key: 3dc4a33a3caff2860d2878a279c73751, data_out: 3439c5881dc9fbe56949e591577a2a5d, finished: 1
+# [1095][DRV] RANDOM_TEST done, Output=3439c5881dc9fbe56949e591577a2a5d
+# decryptInput: 6a0d21857ac6a4fe549af6364528f408
+# 
+# decryptKey:   3dc4a33a3caff2860d2878a279c73751
+# 
+# [SCB] Golden Model: Data=6a0d21857ac6a4fe549af6364528f408 Key=3dc4a33a3caff2860d2878a279c73751 Result=3439c5881dc9fbe56949e591577a2a5d
+# [SCB][PASS] 1095: Match!
+#   Compare ID : 10
+#   Data       : 6a0d21857ac6a4fe549af6364528f408
+#   Key        : 3dc4a33a3caff2860d2878a279c73751
+#   Data Out   : 3439c5881dc9fbe56949e591577a2a5d
+#   REF_out    : 3439c5881dc9fbe56949e591577a2a5d
+# [TEST] TIMEOUT reached
+# ========================================
+# [SCB] AES Scoreboard Report
+#   Total compare : 10
+#   PASS          : 10
+#   FAIL          : 0
+# ========================================
+# ** Note: $finish    : ./TB/test.sv(52)
+#    Time: 1145 ns  Iteration: 4  Instance: /tb_aes_core/t1
+# Break in Module tb_aes_core at ./TB/testbench.sv line 33
+#  coverage save -onexit RANDOM_TEST.ucdb
+# 
