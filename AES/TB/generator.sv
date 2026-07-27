@@ -44,7 +44,7 @@ class generator;
                 data_in inside {[0:2**128-1]};
                 key inside {[0:2**128-1]};
             })else $fatal("[GEN] randomize failed");
-            tr.tc = RANDOM_TEST;
+            tr.tc = tc;
             tr.display("GEN");
             gen_to_drv.put(tr);
         end
@@ -52,10 +52,11 @@ class generator;
 
     task run();
         case(tc)
-            RANDOM_TEST: random_test();
             `ifdef DECIPHER
+            STABLE_PROCESS, RANDOM_TEST: random_test();
             DECRYPT, MID_RESET_DECRYPT: decrypt_test();
             `else
+            STABLE_PROCESS, RANDOM_TEST: random_test();
             ENCRYPT, MID_RESET_ENCRYPT: encrypt_test();   
             `endif
             default: $fatal("[GEN] Unknown test case");

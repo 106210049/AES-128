@@ -25,13 +25,17 @@ program test(aes_if vif);
     env_o = new(vif);
 
     case (testname)
-      "RANDOM_TEST"     : env_o.agt.cfg_gen(10, RANDOM_TEST);
+      
       `ifdef DECIPHER
       "DECRYPT" : env_o.agt.cfg_gen(1, DECRYPT);
       "MID_RESET_DECRYPT": env_o.agt.cfg_gen(1, MID_RESET_DECRYPT);
+      "RANDOM_TEST"     : env_o.agt.cfg_gen(10, RANDOM_TEST);
+      "STABLE_PROCESS"    : env_o.agt.cfg_gen(1, STABLE_PROCESS);
       `else 
       "ENCRYPT" : env_o.agt.cfg_gen(1, ENCRYPT);
       "MID_RESET_ENCRYPT" : env_o.agt.cfg_gen(1, MID_RESET_ENCRYPT);
+      "RANDOM_TEST"     : env_o.agt.cfg_gen(10, RANDOM_TEST);
+      "STABLE_PROCESS"    : env_o.agt.cfg_gen(1, STABLE_PROCESS);
       `endif
       default: begin
         $display("[TEST][ERROR] Invalid TESTNAME=%s", testname);

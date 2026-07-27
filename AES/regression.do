@@ -39,9 +39,9 @@ file delete -force all_tests.ucdb
 # danh sách các test cần chạy tùy theo macro
 set TESTS {}
 if {[lsearch -exact $MACRO_LIST "DECIPHER"] >= 0} {
-    set TESTS {RANDOM_TEST DECRYPT MID_RESET_DECRYPT}
+    set TESTS {RANDOM_TEST DECRYPT MID_RESET_DECRYPT STABLE_PROCESS}
 } else {
-    set TESTS {RANDOM_TEST ENCRYPT MID_RESET_ENCRYPT}
+    set TESTS {RANDOM_TEST ENCRYPT MID_RESET_ENCRYPT STABLE_PROCESS}
 }
 
 # build define options
@@ -50,12 +50,12 @@ foreach m $MACRO_LIST {
     lappend DEFINE_OPTIONS "+define+$m"
 }
 
+vlog +cover {*}$DEFINE_OPTIONS ./RTL/aes_top.sv ./TB/testbench.sv
 # chạy từng test
 foreach t $TESTS {
-    vlog +cover {*}$DEFINE_OPTIONS ./RTL/aes_top.sv ./TB/testbench.sv
     transcript file logs/$t.log
     # thêm -sv_lib để load DLL
-    vsim -c -coverage -sv_lib ./build/aes work.tb_aes_core +TESTNAME=$t -onfinish final -do "run -all; coverage save -onexit $t.ucdb;" -debugDB
+    vsim -c -coverage -sv_lib ./build/aes -voptargs=+acc work.tb_aes_core +TESTNAME=$t -onfinish final -do "run -all; coverage save -onexit $t.ucdb; quit -sim;" -debugDB
     transcript file ""
 }
 
@@ -69,3 +69,4 @@ if {[file exists all_tests.ucdb]} {
 }
 
 exit
+

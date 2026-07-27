@@ -18,6 +18,7 @@ class monitor;
                 tr.key      = vif.key;
                 tr.data_out = vif.data_out;
                 tr.finished = vif.finished;
+                tr.sample_coverage();
                 tr.display("MON");
                 mon_to_scb.put(tr); // gửi sang scoreboard
             end
