@@ -7487,7 +7487,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3iQOUEm7zo1Ho9-sJ4AZ" name="SubWord">
-    <mxGraphModel dx="1098" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="1381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7724,7 +7724,7 @@
             <mxPoint x="680" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wzg5_PiaiHHrJW9leBxI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;fontStyle=1" value="SubWord" vertex="1">
+        <mxCell id="wzg5_PiaiHHrJW9leBxI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" value="SubWord" vertex="1">
           <mxGeometry height="40" width="80" x="480" y="80" as="geometry" />
         </mxCell>
         <mxCell id="wzg5_PiaiHHrJW9leBxI-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
