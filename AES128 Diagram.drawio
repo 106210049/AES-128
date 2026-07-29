@@ -3752,7 +3752,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tnMiXN9wRvniTrAPl-US" name="RotWord">
-    <mxGraphModel dx="1043" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3761,7 +3761,7 @@
             <mxPoint x="600" y="160.1379310344828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="09GFNS0Aq4rPosboxkNe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;fontStyle=1" value="RotWord" vertex="1">
+        <mxCell id="09GFNS0Aq4rPosboxkNe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;strokeColor=#6c8ebf;" value="RotWord" vertex="1">
           <mxGeometry height="80" width="120" x="360" y="120" as="geometry" />
         </mxCell>
         <mxCell id="09GFNS0Aq4rPosboxkNe-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -3781,7 +3781,7 @@
             <mxPoint x="600" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOSFU0gOsAdcIPRl0XBq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;fontStyle=1" value="{[23:0],[31,24]}" vertex="1">
+        <mxCell id="DOSFU0gOsAdcIPRl0XBq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;strokeColor=#6c8ebf;" value="{[23:0],[31,24]}" vertex="1">
           <mxGeometry height="80" width="120" x="360" y="240" as="geometry" />
         </mxCell>
         <mxCell id="DOSFU0gOsAdcIPRl0XBq-5" parent="1" style="text;whiteSpace=wrap;" value="after_rotW[31:0]" vertex="1">
@@ -3800,7 +3800,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DsFeBk1cO2RwPtsRpStD" name="SubWord">
-    <mxGraphModel dx="1304" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4013,7 +4013,7 @@
             <mxPoint x="720" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mTX1Bs9RKSWxWQZ9yWZ1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;fontStyle=1" value="SubWord" vertex="1">
+        <mxCell id="mTX1Bs9RKSWxWQZ9yWZ1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" value="SubWord" vertex="1">
           <mxGeometry height="80" width="120" x="480" y="80" as="geometry" />
         </mxCell>
         <mxCell id="mTX1Bs9RKSWxWQZ9yWZ1-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mTX1Bs9RKSWxWQZ9yWZ1-1" value="">
@@ -4032,7 +4032,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="82D0XLHutv33hik97CbQ" name="Rcon">
-    <mxGraphModel dx="1391" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4193,7 +4193,7 @@
             <mxPoint x="640" y="120.16666666666674" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AbTDQPqurkhOFKPmftpY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;fontStyle=1" value="Rcon" vertex="1">
+        <mxCell id="AbTDQPqurkhOFKPmftpY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" value="Rcon" vertex="1">
           <mxGeometry height="80" width="120" x="360" y="80" as="geometry" />
         </mxCell>
         <mxCell id="AbTDQPqurkhOFKPmftpY-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AbTDQPqurkhOFKPmftpY-4" value="">
@@ -4212,7 +4212,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21vn2TN-0W7tR7uHZT3_" name="AddWord">
-    <mxGraphModel dx="1043" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4356,7 +4356,7 @@
             <mxPoint x="600" y="80.23809523809524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R51_dBq71IvwLtSsRl0k-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;fontStyle=1" value="AddWord" vertex="1">
+        <mxCell id="R51_dBq71IvwLtSsRl0k-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontStyle=1;strokeColor=#d6b656;" value="AddWord" vertex="1">
           <mxGeometry height="80" width="125" x="355" y="40" as="geometry" />
         </mxCell>
         <mxCell id="R51_dBq71IvwLtSsRl0k-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.543;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
