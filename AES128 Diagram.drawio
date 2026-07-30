@@ -4942,8 +4942,8 @@
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" value="Inv_shift_rows" vertex="1">
           <mxGeometry height="40" width="80" x="1040" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="AyFSR9XsEhtfKgmcnE7f-60" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="after_inv_subbytes[127:0]" vertex="1">
-          <mxGeometry height="30" width="100" x="910" y="650" as="geometry" />
+        <mxCell id="AyFSR9XsEhtfKgmcnE7f-60" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="after_invSubBytes[127:0]" vertex="1">
+          <mxGeometry height="30" width="140" x="890" y="650" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;strokeColor=#6c8ebf;" value="inv_mix_columns" vertex="1">
           <mxGeometry height="40" width="120" x="520" y="360" as="geometry" />
