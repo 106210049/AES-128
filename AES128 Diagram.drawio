@@ -1356,7 +1356,7 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-109" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="SubBytes_in[127:0]" vertex="1">
           <mxGeometry height="30" width="60" x="795" y="495" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-110" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="after_subbytes[127:0]" vertex="1">
+        <mxCell id="E0zOSod0C_8z8iG8Cd1U-110" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="after_subBytes[127:0]" vertex="1">
           <mxGeometry height="30" width="100" x="935" y="585" as="geometry" />
         </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-115" edge="1" parent="1" source="E0zOSod0C_8z8iG8Cd1U-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
