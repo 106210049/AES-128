@@ -824,7 +824,7 @@
         <mxCell id="fogyi-BGkz_uXYL8H-s7-29" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="decipher_ready" vertex="1">
           <mxGeometry height="20" width="85" x="525" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="Q7DScBCuFvvtGZAzZV9m-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AES-128 Core" vertex="1">
+        <mxCell id="Q7DScBCuFvvtGZAzZV9m-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;AES-128 Core&lt;/b&gt;" vertex="1">
           <mxGeometry height="160" width="130" x="270" y="80" as="geometry" />
         </mxCell>
       </root>
