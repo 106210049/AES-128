@@ -5048,26 +5048,23 @@
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-86" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="plain_text_reg[127:0]" vertex="1">
           <mxGeometry height="30" width="120" x="1020" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="AyFSR9XsEhtfKgmcnE7f-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;strokeColor=#b85450;" value="AES Decipher controller" vertex="1">
-          <mxGeometry height="140" width="160" x="165" y="710" as="geometry" />
-        </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-89" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="40" y="780" as="sourcePoint" />
-            <mxPoint x="165" y="779.39" as="targetPoint" />
+            <mxPoint x="40" y="760.3" as="sourcePoint" />
+            <mxPoint x="165" y="759.6899999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-91" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="clk" vertex="1">
-          <mxGeometry height="20" width="50" x="-10" y="770" as="geometry" />
+          <mxGeometry height="20" width="50" x="-1.5" y="750" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-92" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="40" y="820" as="sourcePoint" />
-            <mxPoint x="165" y="820" as="targetPoint" />
+            <mxPoint x="40" y="799.76" as="sourcePoint" />
+            <mxPoint x="165" y="799.76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-93" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="rst_n" vertex="1">
-          <mxGeometry height="20" width="33" x="-1.5" y="810" as="geometry" />
+          <mxGeometry height="20" width="33" x="7" y="790" as="geometry" />
         </mxCell>
         <mxCell id="AyFSR9XsEhtfKgmcnE7f-94" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -5332,6 +5329,9 @@
         </mxCell>
         <mxCell id="Hpt75LdsJabRYboI1xqA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;InvSubBytes&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="85" x="1047.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpt75LdsJabRYboI1xqA-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;AES Decipher controller&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="165" y="720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
