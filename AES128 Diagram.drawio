@@ -3329,10 +3329,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRAuWvjuUsrEkUluTZZL" name="Key Expand">
-    <mxGraphModel dx="1181" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1723" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p78_CwRjDAeXKemvx4QK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="365" width="1260" x="180" y="195" as="geometry" />
+        </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-2" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="100" width="160" x="250" y="350" as="geometry" />
         </mxCell>
@@ -3627,7 +3630,7 @@
           <mxGeometry height="30" width="100" x="80" y="250" as="geometry" />
         </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-73" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;AES Key Expand&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="1230" y="210" as="geometry" />
+          <mxGeometry height="30" width="210" x="1200" y="200" as="geometry" />
         </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-74" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="round_key&lt;div&gt;[127:0]&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="1000" y="300" as="geometry" />
