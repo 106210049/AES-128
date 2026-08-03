@@ -3329,7 +3329,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRAuWvjuUsrEkUluTZZL" name="Key Expand">
-    <mxGraphModel dx="827" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3717,7 +3717,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-93" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="key_in&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[31:0]&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="85" x="865" y="260" as="geometry" />
+          <mxGeometry height="30" width="85" x="860" y="250" as="geometry" />
         </mxCell>
         <mxCell id="JeldDQm1IBwGEePkz44i-94" edge="1" parent="1" source="JeldDQm1IBwGEePkz44i-99" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
