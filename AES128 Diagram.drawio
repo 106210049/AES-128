@@ -1169,7 +1169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CJNlIeEvRIlAUffejnwk" name="AES cipher core">
-    <mxGraphModel dx="2276" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2573" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1527,9 +1527,6 @@
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-143" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="cipher_text_reg[127:0]" vertex="1">
           <mxGeometry height="30" width="120" x="875" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="E0zOSod0C_8z8iG8Cd1U-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;strokeColor=#b85450;" value="AES Cipher controller" vertex="1">
-          <mxGeometry height="140" width="160" x="165" y="710" as="geometry" />
-        </mxCell>
         <mxCell id="E0zOSod0C_8z8iG8Cd1U-147" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-160" y="779.39" as="sourcePoint" />
@@ -1664,6 +1661,9 @@
         </mxCell>
         <mxCell id="VSuYYtpxkXof-ZDCvDhs-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;mix_columns&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="-75" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYYtpxkXof-ZDCvDhs-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;AES Cipher controller&lt;/span&gt;" vertex="1">
+          <mxGeometry height="145" width="160" x="165" y="715" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
