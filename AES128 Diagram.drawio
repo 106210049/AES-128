@@ -5209,7 +5209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="60TA2GZMktAfKFQr_S15" name="AES Decipher core">
-    <mxGraphModel dx="2917" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3803" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6139,6 +6139,12 @@
             <mxPoint x="1120" y="840" as="sourcePoint" />
             <mxPoint x="1200" y="840" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AgJHwMfwpiqFGSG0hyCu-34" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;shapeInside=1;fixedSize=1;size=10;whiteSpace=wrap;fontStyle=1" value="128&#39;h0" vertex="1">
+          <mxGeometry height="40" width="1760" x="-720" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="AgJHwMfwpiqFGSG0hyCu-35" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;shapeInside=1;fixedSize=1;size=10;whiteSpace=wrap;fontStyle=1" value="&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="1040" y="1200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
