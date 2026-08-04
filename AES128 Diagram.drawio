@@ -4691,6 +4691,12 @@
         <mxCell id="Md9h-b4NeKtoqmMNb2A4-25" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;shapeInside=1;fixedSize=1;size=10;whiteSpace=wrap;fontStyle=1" value="128&#39;h0" vertex="1">
           <mxGeometry height="40" width="160" x="1920" y="880" as="geometry" />
         </mxCell>
+        <mxCell id="Md9h-b4NeKtoqmMNb2A4-26" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="begin_round" vertex="1">
+          <mxGeometry height="30" width="90" x="50" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9h-b4NeKtoqmMNb2A4-27" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="rkey_en" vertex="1">
+          <mxGeometry height="30" width="90" x="50" y="810" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
