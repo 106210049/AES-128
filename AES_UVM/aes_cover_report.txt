@@ -1,0 +1,25 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /aes_pkg/func_cov/cov_aes                       100.00%        100    Covered              
+    covered/total bins:                                     6          6                      
+    missing/total bins:                                     0          6                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint cov_aes::cp_data_in                    100.00%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                        100.00%        100                      
+        bin zero                                            1          1    Covered              
+        bin random                                         10          1    Covered              
+        bin one                                             1          1    Covered              
+    Coverpoint cov_aes::cp_key_in                     100.00%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                        100.00%        100                      
+        bin zero                                            1          1    Covered              
+        bin random                                         10          1    Covered              
+        bin one                                             1          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1

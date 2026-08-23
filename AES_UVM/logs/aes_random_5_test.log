@@ -1,0 +1,629 @@
+#  log -r /*
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_root.svh(370) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+# UVM_INFO @ 0: reporter [RNTST] Running test aes_random_5_test...
+# UVM_INFO .\TB\tb\aes_test_lib.sv(21) @ 0: uvm_test_top [aes_random_5_test] Build Phase of Test is being executed!
+# UVM_INFO .\TB\tb\aes_tb.sv(16) @ 0: uvm_test_top.tb [aes_tb] Testbench Build Phase is being executed !
+# UVM_INFO .\TB\sv\aes_agent.sv(22) @ 0: uvm_test_top.tb.env.agent [CFG] Property is_active exists in config DB
+# UVM_INFO .\TB\sv\aes_agent.sv(33) @ 0: uvm_test_top.tb.env.agent [aes_agent] AGENT IS ACTIVE !
+# UVM_INFO .\TB\sv\aes_driver.sv(24) @ 0: uvm_test_top.tb.env.agent.driver [aes_driver] Driver is connected with interface
+# UVM_INFO .\TB\tb\aes_test_lib.sv(27) @ 0: uvm_test_top [aes_random_5_test] End of Elaboration Phase of Test is being executed!
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# -----------------------------------------------------------------
+# Name                          Type                    Size  Value
+# -----------------------------------------------------------------
+# uvm_test_top                  aes_random_5_test       -     @448 
+#   tb                          aes_tb                  -     @466 
+#     aes_scb                   aes_scoreboard          -     @480 
+#       act_imp                 uvm_analysis_imp_act    -     @495 
+#         recording_detail      integral                32    'd1  
+#       exp_imp                 uvm_analysis_imp_exp    -     @487 
+#         recording_detail      integral                32    'd1  
+#       recording_detail        integral                32    'd1  
+#     env                       aes_env                 -     @473 
+#       agent                   aes_agent               -     @503 
+#         driver                aes_driver              -     @551 
+#           rsp_port            uvm_analysis_port       -     @566 
+#             recording_detail  integral                32    'd1  
+#           seq_item_port       uvm_seq_item_pull_port  -     @558 
+#             recording_detail  integral                32    'd1  
+#           recording_detail    integral                32    'd1  
+#         monitor               aes_monitor             -     @526 
+#           exp_ap              uvm_analysis_port       -     @533 
+#             recording_detail  integral                32    'd1  
+#           mon_ap              uvm_analysis_port       -     @541 
+#             recording_detail  integral                32    'd1  
+#           recording_detail    integral                32    'd1  
+#         sequencer             aes_sequencer           -     @574 
+#           rsp_export          uvm_analysis_export     -     @581 
+#             recording_detail  integral                32    'd1  
+#           seq_item_export     uvm_seq_item_pull_imp   -     @675 
+#             recording_detail  integral                32    'd1  
+#           recording_detail    integral                32    'd1  
+#           arbitration_queue   array                   0     -    
+#           lock_queue          array                   0     -    
+#           num_last_reqs       integral                32    'd1  
+#           num_last_rsps       integral                32    'd1  
+#         recording_detail      integral                32    'd1  
+#       fc                      func_cov                -     @510 
+#         analysis_imp          uvm_analysis_imp        -     @517 
+#           recording_detail    integral                32    'd1  
+#         recording_detail      integral                32    'd1  
+#       recording_detail        integral                32    'd1  
+#     recording_detail          integral                32    'd1  
+# -----------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_driver.sv(28) @ 0: uvm_test_top.tb.env.agent.driver [aes_driver] start of simulation for uvm_test_top.tb.env.agent.driver
+# UVM_INFO .\TB\sv\aes_monitor.sv(26) @ 0: uvm_test_top.tb.env.agent.monitor [aes_monitor] start of simulation for uvm_test_top.tb.env.agent.monitor
+# UVM_INFO .\TB\sv\aes_agent.sv(46) @ 0: uvm_test_top.tb.env.agent [aes_agent] start of simulation for uvm_test_top.tb.env.agent
+# UVM_INFO .\TB\sv\aes_env.sv(26) @ 0: uvm_test_top.tb.env [aes_env] start of simulation for uvm_test_top.tb.env
+# UVM_INFO .\TB\tb\aes_tb.sv(25) @ 0: uvm_test_top.tb [aes_tb] start of simulation for uvm_test_top.tb
+# UVM_INFO .\TB\tb\aes_test_lib.sv(36) @ 0: uvm_test_top [aes_random_5_test] Run Phase of Test is being executed!
+# UVM_INFO .\TB\tb\aes_test_lib.sv(39) @ 0: uvm_test_top [aes_random_5_test] Raise objection in run phase
+# UVM_INFO .\TB\tb\aes_test_lib.sv(41) @ 0: uvm_test_top [aes_random_5_test] Drop objection in run phase
+# UVM_INFO .\TB\tb\aes_tb.sv(29) @ 0: uvm_test_top.tb [aes_tb] Testbench Run Phase is begin executed!
+# UVM_INFO .\TB\sv\aes_driver.sv(32) @ 0: uvm_test_top.tb.env.agent.driver [aes_driver] Driver is running
+# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 0: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO .\TB\sv\aes_sequences.sv(23) @ 0: uvm_test_top.tb.env.agent.sequencer@@aes_random_5_sequences [aes_random_5_sequences] raise objection
+# UVM_INFO .\TB\sv\aes_sequences.sv(123) @ 0: uvm_test_top.tb.env.agent.sequencer@@aes_random_5_sequences [aes_random_5_sequences] Executing aes_random_5_sequences
+# UVM_INFO .\TB\sv\aes_monitor.sv(33) @ 16: uvm_test_top.tb.env.agent.monitor [aes_monitor] Detected Reset Done
+# UVM_INFO .\TB\sv\aes_driver.sv(37) @ 16: uvm_test_top.tb.env.agent.driver [aes_driver] Reset dropped
+# UVM_INFO .\TB\sv\aes_driver.sv(52) @ 16: uvm_test_top.tb.env.agent.driver [aes_driver] Sending Packet :
+# ------------------------------------------------------------------------------------------------------------------
+# Name                           Type               Size  Value                                                     
+# ------------------------------------------------------------------------------------------------------------------
+# req                            aes_sequence_item  -     @697                                                      
+#   data_in                      integral           128   'h72b97ae1536ba21956d39f42c9ec94f2                        
+#   key                          integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb                        
+#   data_out                     integral           128   'h0                                                       
+#   finished                     integral           1     'b0                                                       
+#   begin_time                   time               64    16                                                        
+#   depth                        int                32    'd2                                                       
+#   parent sequence (name)       string             22    aes_random_5_sequences                                    
+#   parent sequence (full name)  string             58    uvm_test_top.tb.env.agent.sequencer.aes_random_5_sequences
+#   sequencer                    string             35    uvm_test_top.tb.env.agent.sequencer                       
+# ------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(44) @ 35: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent exp_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @725                              
+#   data_in   integral           128   'h72b97ae1536ba21956d39f42c9ec94f2
+#   key       integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(69) @ 35: uvm_test_top.tb.aes_scb [aes_scoreboard] Expected queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @725                              
+#   data_in   integral           128   'h72b97ae1536ba21956d39f42c9ec94f2
+#   key       integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_driver.sv(52) @ 125: uvm_test_top.tb.env.agent.driver [aes_driver] Sending Packet :
+# ------------------------------------------------------------------------------------------------------------------
+# Name                           Type               Size  Value                                                     
+# ------------------------------------------------------------------------------------------------------------------
+# req                            aes_sequence_item  -     @740                                                      
+#   data_in                      integral           128   'h443da87fbd9addf48b1b6859083d8e90                        
+#   key                          integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e                        
+#   data_out                     integral           128   'h0                                                       
+#   finished                     integral           1     'b0                                                       
+#   begin_time                   time               64    125                                                       
+#   depth                        int                32    'd2                                                       
+#   parent sequence (name)       string             22    aes_random_5_sequences                                    
+#   parent sequence (full name)  string             58    uvm_test_top.tb.env.agent.sequencer.aes_random_5_sequences
+#   sequencer                    string             35    uvm_test_top.tb.env.agent.sequencer                       
+# ------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(53) @ 135: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent act_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @729                              
+#   data_in   integral           128   'h72b97ae1536ba21956d39f42c9ec94f2
+#   key       integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb
+#   data_out  integral           128   'h97397c5e1c7e937189a24a04ec7022c8
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(80) @ 135: uvm_test_top.tb.aes_scb [aes_scoreboard] Actual queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @729                              
+#   data_in   integral           128   'h72b97ae1536ba21956d39f42c9ec94f2
+#   key       integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb
+#   data_out  integral           128   'h97397c5e1c7e937189a24a04ec7022c8
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(63) @ 135: uvm_test_top.tb.env.agent.monitor [aes_monitor] Packet Collected: Input: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @725                              
+#   data_in   integral           128   'h72b97ae1536ba21956d39f42c9ec94f2
+#   key       integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# , Output: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @729                              
+#   data_in   integral           128   'h72b97ae1536ba21956d39f42c9ec94f2
+#   key       integral           128   'h315d1b264ff75f74be7f8e62d85d8dbb
+#   data_out  integral           128   'h97397c5e1c7e937189a24a04ec7022c8
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(44) @ 145: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent exp_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @748                              
+#   data_in   integral           128   'h443da87fbd9addf48b1b6859083d8e90
+#   key       integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(69) @ 145: uvm_test_top.tb.aes_scb [aes_scoreboard] Expected queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @748                              
+#   data_in   integral           128   'h443da87fbd9addf48b1b6859083d8e90
+#   key       integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_driver.sv(52) @ 235: uvm_test_top.tb.env.agent.driver [aes_driver] Sending Packet :
+# ------------------------------------------------------------------------------------------------------------------
+# Name                           Type               Size  Value                                                     
+# ------------------------------------------------------------------------------------------------------------------
+# req                            aes_sequence_item  -     @760                                                      
+#   data_in                      integral           128   'h2bce116b2636d1b734bb882e685764e8                        
+#   key                          integral           128   'h7db585eacbdadfa5ff29274959196a43                        
+#   data_out                     integral           128   'h0                                                       
+#   finished                     integral           1     'b0                                                       
+#   begin_time                   time               64    235                                                       
+#   depth                        int                32    'd2                                                       
+#   parent sequence (name)       string             22    aes_random_5_sequences                                    
+#   parent sequence (full name)  string             58    uvm_test_top.tb.env.agent.sequencer.aes_random_5_sequences
+#   sequencer                    string             35    uvm_test_top.tb.env.agent.sequencer                       
+# ------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(53) @ 245: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent act_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @752                              
+#   data_in   integral           128   'h443da87fbd9addf48b1b6859083d8e90
+#   key       integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e
+#   data_out  integral           128   'h7e2af8a61b8722be1221cb9f85ad2c80
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(80) @ 245: uvm_test_top.tb.aes_scb [aes_scoreboard] Actual queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @752                              
+#   data_in   integral           128   'h443da87fbd9addf48b1b6859083d8e90
+#   key       integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e
+#   data_out  integral           128   'h7e2af8a61b8722be1221cb9f85ad2c80
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(63) @ 245: uvm_test_top.tb.env.agent.monitor [aes_monitor] Packet Collected: Input: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @748                              
+#   data_in   integral           128   'h443da87fbd9addf48b1b6859083d8e90
+#   key       integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# , Output: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @752                              
+#   data_in   integral           128   'h443da87fbd9addf48b1b6859083d8e90
+#   key       integral           128   'ha91de7d8e038fc163f3dfdc7a64ac83e
+#   data_out  integral           128   'h7e2af8a61b8722be1221cb9f85ad2c80
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(44) @ 255: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent exp_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @768                              
+#   data_in   integral           128   'h2bce116b2636d1b734bb882e685764e8
+#   key       integral           128   'h7db585eacbdadfa5ff29274959196a43
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(69) @ 255: uvm_test_top.tb.aes_scb [aes_scoreboard] Expected queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @768                              
+#   data_in   integral           128   'h2bce116b2636d1b734bb882e685764e8
+#   key       integral           128   'h7db585eacbdadfa5ff29274959196a43
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_driver.sv(52) @ 345: uvm_test_top.tb.env.agent.driver [aes_driver] Sending Packet :
+# ------------------------------------------------------------------------------------------------------------------
+# Name                           Type               Size  Value                                                     
+# ------------------------------------------------------------------------------------------------------------------
+# req                            aes_sequence_item  -     @780                                                      
+#   data_in                      integral           128   'hfbeb00683cec61214d0aebe857f681e8                        
+#   key                          integral           128   'h4db50df5592b6946e68ab75a48e3bce8                        
+#   data_out                     integral           128   'h0                                                       
+#   finished                     integral           1     'b0                                                       
+#   begin_time                   time               64    345                                                       
+#   depth                        int                32    'd2                                                       
+#   parent sequence (name)       string             22    aes_random_5_sequences                                    
+#   parent sequence (full name)  string             58    uvm_test_top.tb.env.agent.sequencer.aes_random_5_sequences
+#   sequencer                    string             35    uvm_test_top.tb.env.agent.sequencer                       
+# ------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(53) @ 355: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent act_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @772                              
+#   data_in   integral           128   'h2bce116b2636d1b734bb882e685764e8
+#   key       integral           128   'h7db585eacbdadfa5ff29274959196a43
+#   data_out  integral           128   'h28daac71676626ff96fe3c595aa843c7
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(80) @ 355: uvm_test_top.tb.aes_scb [aes_scoreboard] Actual queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @772                              
+#   data_in   integral           128   'h2bce116b2636d1b734bb882e685764e8
+#   key       integral           128   'h7db585eacbdadfa5ff29274959196a43
+#   data_out  integral           128   'h28daac71676626ff96fe3c595aa843c7
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(63) @ 355: uvm_test_top.tb.env.agent.monitor [aes_monitor] Packet Collected: Input: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @768                              
+#   data_in   integral           128   'h2bce116b2636d1b734bb882e685764e8
+#   key       integral           128   'h7db585eacbdadfa5ff29274959196a43
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# , Output: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @772                              
+#   data_in   integral           128   'h2bce116b2636d1b734bb882e685764e8
+#   key       integral           128   'h7db585eacbdadfa5ff29274959196a43
+#   data_out  integral           128   'h28daac71676626ff96fe3c595aa843c7
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(44) @ 365: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent exp_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @788                              
+#   data_in   integral           128   'hfbeb00683cec61214d0aebe857f681e8
+#   key       integral           128   'h4db50df5592b6946e68ab75a48e3bce8
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(69) @ 365: uvm_test_top.tb.aes_scb [aes_scoreboard] Expected queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @788                              
+#   data_in   integral           128   'hfbeb00683cec61214d0aebe857f681e8
+#   key       integral           128   'h4db50df5592b6946e68ab75a48e3bce8
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_driver.sv(52) @ 455: uvm_test_top.tb.env.agent.driver [aes_driver] Sending Packet :
+# ------------------------------------------------------------------------------------------------------------------
+# Name                           Type               Size  Value                                                     
+# ------------------------------------------------------------------------------------------------------------------
+# req                            aes_sequence_item  -     @800                                                      
+#   data_in                      integral           128   'heb3ed23b4e79eb7c1411abefbae75929                        
+#   key                          integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc                        
+#   data_out                     integral           128   'h0                                                       
+#   finished                     integral           1     'b0                                                       
+#   begin_time                   time               64    455                                                       
+#   depth                        int                32    'd2                                                       
+#   parent sequence (name)       string             22    aes_random_5_sequences                                    
+#   parent sequence (full name)  string             58    uvm_test_top.tb.env.agent.sequencer.aes_random_5_sequences
+#   sequencer                    string             35    uvm_test_top.tb.env.agent.sequencer                       
+# ------------------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(53) @ 465: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent act_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @792                              
+#   data_in   integral           128   'hfbeb00683cec61214d0aebe857f681e8
+#   key       integral           128   'h4db50df5592b6946e68ab75a48e3bce8
+#   data_out  integral           128   'h38c0ef6279dd48a3df966256327a6e74
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(80) @ 465: uvm_test_top.tb.aes_scb [aes_scoreboard] Actual queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @792                              
+#   data_in   integral           128   'hfbeb00683cec61214d0aebe857f681e8
+#   key       integral           128   'h4db50df5592b6946e68ab75a48e3bce8
+#   data_out  integral           128   'h38c0ef6279dd48a3df966256327a6e74
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(63) @ 465: uvm_test_top.tb.env.agent.monitor [aes_monitor] Packet Collected: Input: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @788                              
+#   data_in   integral           128   'hfbeb00683cec61214d0aebe857f681e8
+#   key       integral           128   'h4db50df5592b6946e68ab75a48e3bce8
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# , Output: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @792                              
+#   data_in   integral           128   'hfbeb00683cec61214d0aebe857f681e8
+#   key       integral           128   'h4db50df5592b6946e68ab75a48e3bce8
+#   data_out  integral           128   'h38c0ef6279dd48a3df966256327a6e74
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(44) @ 475: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent exp_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @808                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(69) @ 475: uvm_test_top.tb.aes_scb [aes_scoreboard] Expected queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @808                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_sequences.sv(37) @ 565: uvm_test_top.tb.env.agent.sequencer@@aes_random_5_sequences [aes_random_5_sequences] drop objection
+# UVM_INFO .\TB\sv\aes_sequences.sv(41) @ 565: uvm_test_top.tb.env.agent.sequencer@@aes_random_5_sequences [aes_random_5_sequences] set drain time 100ns
+# UVM_INFO .\TB\sv\aes_monitor.sv(53) @ 575: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent act_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @812                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'hce2a431d6428cbef53b73d9b34cd6e71
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(80) @ 575: uvm_test_top.tb.aes_scb [aes_scoreboard] Actual queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @812                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'hce2a431d6428cbef53b73d9b34cd6e71
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(63) @ 575: uvm_test_top.tb.env.agent.monitor [aes_monitor] Packet Collected: Input: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @808                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# , Output: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# act_pkt     aes_sequence_item  -     @812                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'hce2a431d6428cbef53b73d9b34cd6e71
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(44) @ 585: uvm_test_top.tb.env.agent.monitor [aes_monitor] Monitor sent exp_pkt to scoreboard: 
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @824                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(69) @ 585: uvm_test_top.tb.aes_scb [aes_scoreboard] Expected queued:
+# -----------------------------------------------------------------------
+# Name        Type               Size  Value                             
+# -----------------------------------------------------------------------
+# exp_pkt     aes_sequence_item  -     @824                              
+#   data_in   integral           128   'heb3ed23b4e79eb7c1411abefbae75929
+#   key       integral           128   'h25bacbb63eea1f87b8be2eb8e394c2dc
+#   data_out  integral           128   'h0                               
+#   finished  integral           1     'b0                               
+# -----------------------------------------------------------------------
+# 
+# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 665: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# encryptInput: 72b97ae1536ba21956d39f42c9ec94f2
+# 
+# encryptKey:   315d1b264ff75f74be7f8e62d85d8dbb
+# 
+# encryptOutput:   97397c5e1c7e937189a24a04ec7022c8
+# 
+# [SCB] Golden Model: Data=72b97ae1536ba21956d39f42c9ec94f2 Key=315d1b264ff75f74be7f8e62d85d8dbb Result=97397c5e1c7e937189a24a04ec7022c8
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(102) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] MATCH: DUT_out=97397c5e1c7e937189a24a04ec7022c8 REF_out=97397c5e1c7e937189a24a04ec7022c8
+# encryptInput: 443da87fbd9addf48b1b6859083d8e90
+# 
+# encryptKey:   a91de7d8e038fc163f3dfdc7a64ac83e
+# 
+# encryptOutput:   7e2af8a61b8722be1221cb9f85ad2c80
+# 
+# [SCB] Golden Model: Data=443da87fbd9addf48b1b6859083d8e90 Key=a91de7d8e038fc163f3dfdc7a64ac83e Result=7e2af8a61b8722be1221cb9f85ad2c80
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(102) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] MATCH: DUT_out=7e2af8a61b8722be1221cb9f85ad2c80 REF_out=7e2af8a61b8722be1221cb9f85ad2c80
+# encryptInput: 2bce116b2636d1b734bb882e685764e8
+# 
+# encryptKey:   7db585eacbdadfa5ff29274959196a43
+# 
+# encryptOutput:   28daac71676626ff96fe3c595aa843c7
+# 
+# [SCB] Golden Model: Data=2bce116b2636d1b734bb882e685764e8 Key=7db585eacbdadfa5ff29274959196a43 Result=28daac71676626ff96fe3c595aa843c7
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(102) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] MATCH: DUT_out=28daac71676626ff96fe3c595aa843c7 REF_out=28daac71676626ff96fe3c595aa843c7
+# encryptInput: fbeb00683cec61214d0aebe857f681e8
+# 
+# encryptKey:   4db50df5592b6946e68ab75a48e3bce8
+# 
+# encryptOutput:   38c0ef6279dd48a3df966256327a6e74
+# 
+# [SCB] Golden Model: Data=fbeb00683cec61214d0aebe857f681e8 Key=4db50df5592b6946e68ab75a48e3bce8 Result=38c0ef6279dd48a3df966256327a6e74
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(102) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] MATCH: DUT_out=38c0ef6279dd48a3df966256327a6e74 REF_out=38c0ef6279dd48a3df966256327a6e74
+# encryptInput: eb3ed23b4e79eb7c1411abefbae75929
+# 
+# encryptKey:   25bacbb63eea1f87b8be2eb8e394c2dc
+# 
+# encryptOutput:   ce2a431d6428cbef53b73d9b34cd6e71
+# 
+# [SCB] Golden Model: Data=eb3ed23b4e79eb7c1411abefbae75929 Key=25bacbb63eea1f87b8be2eb8e394c2dc Result=ce2a431d6428cbef53b73d9b34cd6e71
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(102) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] MATCH: DUT_out=ce2a431d6428cbef53b73d9b34cd6e71 REF_out=ce2a431d6428cbef53b73d9b34cd6e71
+# UVM_INFO .\TB\tb\aes_test_lib.sv(45) @ 665: uvm_test_top [aes_random_5_test] Check config usage at check phase
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(127) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] AES Scoreboard summary: in=6 out=5 pass=5 fail=0
+# UVM_INFO .\TB\tb\..\sv\aes_scoreboard.sv(134) @ 665: uvm_test_top.tb.aes_scb [aes_scoreboard] Status:
+# 
+# Simulation PASSED
+# 
+# UVM_INFO .\TB\sv\aes_monitor.sv(71) @ 665: uvm_test_top.tb.env.agent.monitor [aes_monitor] Report: AES Monitor observed 5 transactions
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   68
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CFG]     1
+# [NO_DPI_TSTNAME]     1
+# [RNTST]     1
+# [TEST_DONE]     2
+# [UVMTOP]     1
+# [aes_agent]     2
+# [aes_driver]     9
+# [aes_env]     1
+# [aes_monitor]    19
+# [aes_random_5_sequences]     4
+# [aes_random_5_test]     6
+# [aes_scoreboard]    18
+# [aes_tb]     3
+# ** Note: $finish    : C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 665 ns  Iteration: 60  Instance: /tb_aes_top
+# Break in Task std/mailbox::get at C:/questasim64_10.7c/win64/../verilog_src/std/std.sv line 41
+#  coverage save -onexit ./cov_out/aes_random_5_test.ucdb
+#  quit -sim
+# Saving coverage database on exit...
+# End time: 00:04:59 on Aug 24,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# 
+# vsim -c -coverage -wlf ./wlf_out/aes_data_all_one_test.wlf work.tb_aes_top -sv_lib ./build/aes "+SVSEED=random" "+UVM_TESTNAME=aes_data_all_one_test" "+UVM_VERBOSITY=UVM_HIGH" "+UVM_TR_RECORD" -onfinish final -do "transcript file ./logs/aes_data_all_one_test.log; log -r /*; run -all; coverage save -onexit ./cov_out/aes_data_all_one_test.ucdb; quit -sim;" -debugDB 
+# Start time: 00:04:59 on Aug 24,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.aes_if(fast)
+# Loading work.uvm_pkg(fast)
+# Loading work.aes_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading work.tb_aes_top(fast)
+# Loading work.aes_if(fast)
+# Loading work.aes_top(fast)
+# Loading work.AES_CIPHER(fast)
+# Loading work.AES_Cipher_Core(fast)
+# Loading work.AES_Cipher_Controller(fast)
+# Loading work.AddRoundKey(fast)
+# Loading work.SubBytes(fast)
+# Loading work.aes_Sbox(fast)
+# Loading work.ShiftRows(fast)
+# Loading work.MixColumns(fast)
+# Loading work.mixCol(fast)
+# Loading work.mul(fast)
+# Loading work.AES_Key_Expand(fast)
+# Loading work.rotWord(fast)
+# Loading work.subWord(fast)
+# Loading work.Rcon(fast)
+# Loading work.addWord(fast)
+# Loading .\./build/aes.dll
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# transcript file ./logs/aes_data_all_one_test.log
